@@ -1,0 +1,4248 @@
+{
+ "clients": [
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "region": "Midwest",
+   "licensed_beds": 220,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1866000,
+   "renewal_month": "2026-01",
+   "account_status": "At Risk"
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "region": "Midwest",
+   "licensed_beds": 140,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1071000,
+   "renewal_month": "2026-02",
+   "account_status": "Active"
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "region": "West",
+   "licensed_beds": 310,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1980000,
+   "renewal_month": "2026-11",
+   "account_status": "Active - Expansion Opportunity"
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "region": "Northeast",
+   "licensed_beds": 180,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1834000,
+   "renewal_month": "2026-01",
+   "account_status": "At Risk"
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "region": "Midwest",
+   "licensed_beds": 95,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 966000,
+   "renewal_month": "2026-02",
+   "account_status": "Active"
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "region": "South",
+   "licensed_beds": 260,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1830000,
+   "renewal_month": "2026-12",
+   "account_status": "Active - Expansion Opportunity"
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "region": "South",
+   "licensed_beds": 150,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1054000,
+   "renewal_month": "2026-11",
+   "account_status": "Active"
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "region": "Northeast",
+   "licensed_beds": 200,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1976000,
+   "renewal_month": "2026-01",
+   "account_status": "At Risk"
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "region": "West",
+   "licensed_beds": 175,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1389000,
+   "renewal_month": "2026-03",
+   "account_status": "Active"
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "region": "West",
+   "licensed_beds": 130,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1302000,
+   "renewal_month": "2026-03",
+   "account_status": "Active - Expansion Opportunity"
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "region": "South",
+   "licensed_beds": 210,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 965000,
+   "renewal_month": "2026-01",
+   "account_status": "Active"
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "region": "Northeast",
+   "licensed_beds": 160,
+   "service_line": "Tele-Neurology",
+   "contract_start": "2022-07-01",
+   "annual_contract_value": 1493000,
+   "renewal_month": "2026-11",
+   "account_status": "Active"
+  }
+ ],
+ "utilization": [
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-01",
+   "encounters": 152,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 3.2
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-02",
+   "encounters": 156,
+   "avg_response_min": 9.8,
+   "target_response_min": 10,
+   "clinician_fte": 3.1
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-03",
+   "encounters": 145,
+   "avg_response_min": 10.9,
+   "target_response_min": 10,
+   "clinician_fte": 3.1
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-04",
+   "encounters": 145,
+   "avg_response_min": 11.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-05",
+   "encounters": 146,
+   "avg_response_min": 12.2,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-06",
+   "encounters": 140,
+   "avg_response_min": 12.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-07",
+   "encounters": 141,
+   "avg_response_min": 13.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-08",
+   "encounters": 135,
+   "avg_response_min": 15.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.5
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-09",
+   "encounters": 134,
+   "avg_response_min": 15.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.4
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-10",
+   "encounters": 123,
+   "avg_response_min": 16.5,
+   "target_response_min": 10,
+   "clinician_fte": 2.3
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-11",
+   "encounters": 123,
+   "avg_response_min": 16.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.2
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-12",
+   "encounters": 121,
+   "avg_response_min": 18.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.1
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-01",
+   "encounters": 157,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-02",
+   "encounters": 153,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-03",
+   "encounters": 160,
+   "avg_response_min": 8.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-04",
+   "encounters": 159,
+   "avg_response_min": 8.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-05",
+   "encounters": 168,
+   "avg_response_min": 8.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-06",
+   "encounters": 165,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-07",
+   "encounters": 165,
+   "avg_response_min": 9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-08",
+   "encounters": 167,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-09",
+   "encounters": 174,
+   "avg_response_min": 8.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-10",
+   "encounters": 172,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-11",
+   "encounters": 179,
+   "avg_response_min": 9.2,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-12",
+   "encounters": 186,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-01",
+   "encounters": 129,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.4
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-02",
+   "encounters": 136,
+   "avg_response_min": 9.2,
+   "target_response_min": 10,
+   "clinician_fte": 2.5
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-03",
+   "encounters": 141,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-04",
+   "encounters": 159,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-05",
+   "encounters": 173,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-06",
+   "encounters": 178,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 3
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-07",
+   "encounters": 183,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 3.2
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-08",
+   "encounters": 197,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 3.4
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-09",
+   "encounters": 203,
+   "avg_response_min": 9.9,
+   "target_response_min": 10,
+   "clinician_fte": 3.5
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-10",
+   "encounters": 230,
+   "avg_response_min": 10.1,
+   "target_response_min": 10,
+   "clinician_fte": 3.6
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-11",
+   "encounters": 241,
+   "avg_response_min": 10.3,
+   "target_response_min": 10,
+   "clinician_fte": 3.7
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-12",
+   "encounters": 252,
+   "avg_response_min": 10,
+   "target_response_min": 10,
+   "clinician_fte": 3.8
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-01",
+   "encounters": 179,
+   "avg_response_min": 9.5,
+   "target_response_min": 10,
+   "clinician_fte": 3.2
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-02",
+   "encounters": 167,
+   "avg_response_min": 10.5,
+   "target_response_min": 10,
+   "clinician_fte": 3.1
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-03",
+   "encounters": 159,
+   "avg_response_min": 11.4,
+   "target_response_min": 10,
+   "clinician_fte": 3
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-04",
+   "encounters": 152,
+   "avg_response_min": 12.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-05",
+   "encounters": 147,
+   "avg_response_min": 13.5,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-06",
+   "encounters": 151,
+   "avg_response_min": 14,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-07",
+   "encounters": 147,
+   "avg_response_min": 14.5,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-08",
+   "encounters": 134,
+   "avg_response_min": 15.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.5
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-09",
+   "encounters": 139,
+   "avg_response_min": 16.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.4
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-10",
+   "encounters": 126,
+   "avg_response_min": 16.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.3
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-11",
+   "encounters": 122,
+   "avg_response_min": 18.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.2
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-12",
+   "encounters": 117,
+   "avg_response_min": 18.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.1
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-01",
+   "encounters": 150,
+   "avg_response_min": 9,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-02",
+   "encounters": 156,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-03",
+   "encounters": 147,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-04",
+   "encounters": 157,
+   "avg_response_min": 8.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-05",
+   "encounters": 159,
+   "avg_response_min": 9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-06",
+   "encounters": 150,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-07",
+   "encounters": 158,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-08",
+   "encounters": 158,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-09",
+   "encounters": 152,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-10",
+   "encounters": 154,
+   "avg_response_min": 9.5,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-11",
+   "encounters": 164,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-12",
+   "encounters": 158,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-01",
+   "encounters": 146,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.4
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-02",
+   "encounters": 142,
+   "avg_response_min": 8.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.5
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-03",
+   "encounters": 148,
+   "avg_response_min": 8.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-04",
+   "encounters": 167,
+   "avg_response_min": 8.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-05",
+   "encounters": 166,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-06",
+   "encounters": 182,
+   "avg_response_min": 9,
+   "target_response_min": 10,
+   "clinician_fte": 3
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-07",
+   "encounters": 183,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 3.1
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-08",
+   "encounters": 189,
+   "avg_response_min": 9.5,
+   "target_response_min": 10,
+   "clinician_fte": 3.3
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-09",
+   "encounters": 186,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 3.4
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-10",
+   "encounters": 193,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 3.5
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-11",
+   "encounters": 211,
+   "avg_response_min": 9.5,
+   "target_response_min": 10,
+   "clinician_fte": 3.7
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-12",
+   "encounters": 216,
+   "avg_response_min": 9.2,
+   "target_response_min": 10,
+   "clinician_fte": 3.9
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-01",
+   "encounters": 175,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-02",
+   "encounters": 171,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-03",
+   "encounters": 173,
+   "avg_response_min": 9.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-04",
+   "encounters": 160,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-05",
+   "encounters": 167,
+   "avg_response_min": 9.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-06",
+   "encounters": 157,
+   "avg_response_min": 9.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-07",
+   "encounters": 162,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-08",
+   "encounters": 158,
+   "avg_response_min": 9.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-09",
+   "encounters": 148,
+   "avg_response_min": 9.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-10",
+   "encounters": 147,
+   "avg_response_min": 10.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-11",
+   "encounters": 144,
+   "avg_response_min": 9.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-12",
+   "encounters": 143,
+   "avg_response_min": 10.2,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-01",
+   "encounters": 147,
+   "avg_response_min": 11,
+   "target_response_min": 10,
+   "clinician_fte": 3.2
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-02",
+   "encounters": 145,
+   "avg_response_min": 11.2,
+   "target_response_min": 10,
+   "clinician_fte": 3.1
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-03",
+   "encounters": 139,
+   "avg_response_min": 12.3,
+   "target_response_min": 10,
+   "clinician_fte": 3
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-04",
+   "encounters": 146,
+   "avg_response_min": 12.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-05",
+   "encounters": 144,
+   "avg_response_min": 13.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-06",
+   "encounters": 134,
+   "avg_response_min": 14,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-07",
+   "encounters": 134,
+   "avg_response_min": 13.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-08",
+   "encounters": 125,
+   "avg_response_min": 15.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.5
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-09",
+   "encounters": 131,
+   "avg_response_min": 14.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.4
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-10",
+   "encounters": 127,
+   "avg_response_min": 16.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.3
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-11",
+   "encounters": 125,
+   "avg_response_min": 17,
+   "target_response_min": 10,
+   "clinician_fte": 2.2
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-12",
+   "encounters": 120,
+   "avg_response_min": 16.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.1
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-01",
+   "encounters": 171,
+   "avg_response_min": 9.2,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-02",
+   "encounters": 167,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-03",
+   "encounters": 175,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-04",
+   "encounters": 166,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-05",
+   "encounters": 179,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-06",
+   "encounters": 170,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-07",
+   "encounters": 184,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-08",
+   "encounters": 176,
+   "avg_response_min": 9.5,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-09",
+   "encounters": 176,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-10",
+   "encounters": 182,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-11",
+   "encounters": 189,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-12",
+   "encounters": 185,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-01",
+   "encounters": 137,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.4
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-02",
+   "encounters": 140,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-03",
+   "encounters": 156,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-04",
+   "encounters": 164,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-05",
+   "encounters": 183,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.9
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-06",
+   "encounters": 184,
+   "avg_response_min": 9.8,
+   "target_response_min": 10,
+   "clinician_fte": 3.1
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-07",
+   "encounters": 193,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 3.2
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-08",
+   "encounters": 215,
+   "avg_response_min": 10.4,
+   "target_response_min": 10,
+   "clinician_fte": 3.3
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-09",
+   "encounters": 222,
+   "avg_response_min": 9.9,
+   "target_response_min": 10,
+   "clinician_fte": 3.4
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-10",
+   "encounters": 227,
+   "avg_response_min": 10.2,
+   "target_response_min": 10,
+   "clinician_fte": 3.5
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-11",
+   "encounters": 240,
+   "avg_response_min": 10.7,
+   "target_response_min": 10,
+   "clinician_fte": 3.6
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-12",
+   "encounters": 257,
+   "avg_response_min": 10.3,
+   "target_response_min": 10,
+   "clinician_fte": 3.8
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-01",
+   "encounters": 142,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-02",
+   "encounters": 151,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-03",
+   "encounters": 153,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-04",
+   "encounters": 152,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-05",
+   "encounters": 156,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-06",
+   "encounters": 163,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-07",
+   "encounters": 155,
+   "avg_response_min": 9.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-08",
+   "encounters": 157,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-09",
+   "encounters": 164,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-10",
+   "encounters": 167,
+   "avg_response_min": 9.6,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-11",
+   "encounters": 170,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-12",
+   "encounters": 169,
+   "avg_response_min": 9.5,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-01",
+   "encounters": 163,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-02",
+   "encounters": 166,
+   "avg_response_min": 8.8,
+   "target_response_min": 10,
+   "clinician_fte": 2.6
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-03",
+   "encounters": 161,
+   "avg_response_min": 8.7,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-04",
+   "encounters": 171,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-05",
+   "encounters": 166,
+   "avg_response_min": 9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-06",
+   "encounters": 171,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-07",
+   "encounters": 174,
+   "avg_response_min": 9,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-08",
+   "encounters": 162,
+   "avg_response_min": 8.9,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-09",
+   "encounters": 174,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-10",
+   "encounters": 171,
+   "avg_response_min": 9.1,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-11",
+   "encounters": 170,
+   "avg_response_min": 9.3,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-12",
+   "encounters": 177,
+   "avg_response_min": 9.4,
+   "target_response_min": 10,
+   "clinician_fte": 2.8
+  }
+ ],
+ "financials": [
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-01",
+   "revenue": 136610.74,
+   "direct_cost": 92895.3,
+   "contribution_margin": 43715.44,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-02",
+   "revenue": 133736.39,
+   "direct_cost": 93615.47,
+   "contribution_margin": 40120.92,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-03",
+   "revenue": 128232.66,
+   "direct_cost": 85915.88,
+   "contribution_margin": 42316.78,
+   "contribution_margin_pct": 33
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-04",
+   "revenue": 129435.7,
+   "direct_cost": 95782.42,
+   "contribution_margin": 33653.28,
+   "contribution_margin_pct": 26
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-05",
+   "revenue": 119167.13,
+   "direct_cost": 89375.35,
+   "contribution_margin": 29791.78,
+   "contribution_margin_pct": 25
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-06",
+   "revenue": 121242.01,
+   "direct_cost": 92143.93,
+   "contribution_margin": 29098.08,
+   "contribution_margin_pct": 24
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-07",
+   "revenue": 112009.63,
+   "direct_cost": 85127.32,
+   "contribution_margin": 26882.31,
+   "contribution_margin_pct": 24
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-08",
+   "revenue": 111320.5,
+   "direct_cost": 86829.99,
+   "contribution_margin": 24490.51,
+   "contribution_margin_pct": 22
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-09",
+   "revenue": 103867.23,
+   "direct_cost": 84132.46,
+   "contribution_margin": 19734.77,
+   "contribution_margin_pct": 19
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-10",
+   "revenue": 101801.84,
+   "direct_cost": 83477.51,
+   "contribution_margin": 18324.33,
+   "contribution_margin_pct": 18
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-11",
+   "revenue": 92089.68,
+   "direct_cost": 78276.23,
+   "contribution_margin": 13813.45,
+   "contribution_margin_pct": 15
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-12",
+   "revenue": 94508.6,
+   "direct_cost": 80332.31,
+   "contribution_margin": 14176.29,
+   "contribution_margin_pct": 15
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-01",
+   "revenue": 123406.35,
+   "direct_cost": 86384.45,
+   "contribution_margin": 37021.9,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-02",
+   "revenue": 125126.1,
+   "direct_cost": 86337.01,
+   "contribution_margin": 38789.09,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-03",
+   "revenue": 127805.26,
+   "direct_cost": 90741.73,
+   "contribution_margin": 37063.53,
+   "contribution_margin_pct": 29
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-04",
+   "revenue": 131436.65,
+   "direct_cost": 92005.66,
+   "contribution_margin": 39430.99,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-05",
+   "revenue": 130445.65,
+   "direct_cost": 90007.5,
+   "contribution_margin": 40438.15,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-06",
+   "revenue": 131799.67,
+   "direct_cost": 92259.77,
+   "contribution_margin": 39539.9,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-07",
+   "revenue": 127885.99,
+   "direct_cost": 88241.33,
+   "contribution_margin": 39644.66,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-08",
+   "revenue": 129909.51,
+   "direct_cost": 90936.66,
+   "contribution_margin": 38972.85,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-09",
+   "revenue": 132903.96,
+   "direct_cost": 91703.73,
+   "contribution_margin": 41200.23,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-10",
+   "revenue": 136586.26,
+   "direct_cost": 92878.66,
+   "contribution_margin": 43707.6,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-11",
+   "revenue": 134649.4,
+   "direct_cost": 91561.59,
+   "contribution_margin": 43087.81,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-12",
+   "revenue": 138223.05,
+   "direct_cost": 95373.9,
+   "contribution_margin": 42849.15,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-01",
+   "revenue": 96597.39,
+   "direct_cost": 68584.15,
+   "contribution_margin": 28013.24,
+   "contribution_margin_pct": 29
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-02",
+   "revenue": 106928.07,
+   "direct_cost": 73780.37,
+   "contribution_margin": 33147.7,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-03",
+   "revenue": 110824.88,
+   "direct_cost": 75360.92,
+   "contribution_margin": 35463.96,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-04",
+   "revenue": 125465.65,
+   "direct_cost": 84061.99,
+   "contribution_margin": 41403.66,
+   "contribution_margin_pct": 33
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-05",
+   "revenue": 128027,
+   "direct_cost": 84497.82,
+   "contribution_margin": 43529.18,
+   "contribution_margin_pct": 34
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-06",
+   "revenue": 141529.05,
+   "direct_cost": 91993.88,
+   "contribution_margin": 49535.17,
+   "contribution_margin_pct": 35
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-07",
+   "revenue": 151540.12,
+   "direct_cost": 100016.48,
+   "contribution_margin": 51523.64,
+   "contribution_margin_pct": 34
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-08",
+   "revenue": 160022.43,
+   "direct_cost": 102414.36,
+   "contribution_margin": 57608.07,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-09",
+   "revenue": 168221.69,
+   "direct_cost": 107661.88,
+   "contribution_margin": 60559.81,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-10",
+   "revenue": 184933.25,
+   "direct_cost": 118357.28,
+   "contribution_margin": 66575.97,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-11",
+   "revenue": 187927.76,
+   "direct_cost": 120273.77,
+   "contribution_margin": 67653.99,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-12",
+   "revenue": 192264.21,
+   "direct_cost": 115358.53,
+   "contribution_margin": 76905.68,
+   "contribution_margin_pct": 40
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-01",
+   "revenue": 138591.37,
+   "direct_cost": 88698.48,
+   "contribution_margin": 49892.89,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-02",
+   "revenue": 138246.13,
+   "direct_cost": 94007.37,
+   "contribution_margin": 44238.76,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-03",
+   "revenue": 132658.9,
+   "direct_cost": 92861.23,
+   "contribution_margin": 39797.67,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-04",
+   "revenue": 130039.55,
+   "direct_cost": 94928.87,
+   "contribution_margin": 35110.68,
+   "contribution_margin_pct": 27
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-05",
+   "revenue": 123072.29,
+   "direct_cost": 91073.49,
+   "contribution_margin": 31998.8,
+   "contribution_margin_pct": 26
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-06",
+   "revenue": 121040.66,
+   "direct_cost": 90780.49,
+   "contribution_margin": 30260.17,
+   "contribution_margin_pct": 25
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-07",
+   "revenue": 115842.49,
+   "direct_cost": 89198.72,
+   "contribution_margin": 26643.77,
+   "contribution_margin_pct": 23
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-08",
+   "revenue": 113765.12,
+   "direct_cost": 91012.1,
+   "contribution_margin": 22753.02,
+   "contribution_margin_pct": 20
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-09",
+   "revenue": 108989.23,
+   "direct_cost": 88281.28,
+   "contribution_margin": 20707.95,
+   "contribution_margin_pct": 19
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-10",
+   "revenue": 104599.32,
+   "direct_cost": 85771.44,
+   "contribution_margin": 18827.88,
+   "contribution_margin_pct": 18
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-11",
+   "revenue": 101236.09,
+   "direct_cost": 85038.32,
+   "contribution_margin": 16197.77,
+   "contribution_margin_pct": 16
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-12",
+   "revenue": 100208.96,
+   "direct_cost": 87181.8,
+   "contribution_margin": 13027.16,
+   "contribution_margin_pct": 13
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-01",
+   "revenue": 118954.75,
+   "direct_cost": 82078.78,
+   "contribution_margin": 36875.97,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-02",
+   "revenue": 117764.31,
+   "direct_cost": 82435.02,
+   "contribution_margin": 35329.29,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-03",
+   "revenue": 120748.21,
+   "direct_cost": 83316.26,
+   "contribution_margin": 37431.95,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-04",
+   "revenue": 118597.95,
+   "direct_cost": 81832.59,
+   "contribution_margin": 36765.36,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-05",
+   "revenue": 119886.23,
+   "direct_cost": 82721.5,
+   "contribution_margin": 37164.73,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-06",
+   "revenue": 118348.31,
+   "direct_cost": 82843.82,
+   "contribution_margin": 35504.49,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-07",
+   "revenue": 122992.6,
+   "direct_cost": 84864.89,
+   "contribution_margin": 38127.71,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-08",
+   "revenue": 119760.16,
+   "direct_cost": 83832.11,
+   "contribution_margin": 35928.05,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-09",
+   "revenue": 118303.32,
+   "direct_cost": 81629.29,
+   "contribution_margin": 36674.03,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-10",
+   "revenue": 118998.92,
+   "direct_cost": 82109.25,
+   "contribution_margin": 36889.67,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-11",
+   "revenue": 117911.4,
+   "direct_cost": 81358.87,
+   "contribution_margin": 36552.53,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-12",
+   "revenue": 117332.82,
+   "direct_cost": 79786.32,
+   "contribution_margin": 37546.5,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-01",
+   "revenue": 99150.22,
+   "direct_cost": 69405.15,
+   "contribution_margin": 29745.07,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-02",
+   "revenue": 107003.17,
+   "direct_cost": 73832.19,
+   "contribution_margin": 33170.98,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-03",
+   "revenue": 113681.63,
+   "direct_cost": 78440.32,
+   "contribution_margin": 35241.31,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-04",
+   "revenue": 127084.46,
+   "direct_cost": 87688.28,
+   "contribution_margin": 39396.18,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-05",
+   "revenue": 132756.81,
+   "direct_cost": 91602.2,
+   "contribution_margin": 41154.61,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-06",
+   "revenue": 149108.15,
+   "direct_cost": 96920.3,
+   "contribution_margin": 52187.85,
+   "contribution_margin_pct": 35
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-07",
+   "revenue": 152766.07,
+   "direct_cost": 100825.61,
+   "contribution_margin": 51940.46,
+   "contribution_margin_pct": 34
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-08",
+   "revenue": 163112.22,
+   "direct_cost": 104391.82,
+   "contribution_margin": 58720.4,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-09",
+   "revenue": 163981.87,
+   "direct_cost": 106588.22,
+   "contribution_margin": 57393.65,
+   "contribution_margin_pct": 35
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-10",
+   "revenue": 182727.1,
+   "direct_cost": 118772.61,
+   "contribution_margin": 63954.49,
+   "contribution_margin_pct": 35
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-11",
+   "revenue": 185818.85,
+   "direct_cost": 115207.69,
+   "contribution_margin": 70611.16,
+   "contribution_margin_pct": 38
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-12",
+   "revenue": 200210.95,
+   "direct_cost": 128135.01,
+   "contribution_margin": 72075.94,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-01",
+   "revenue": 115321.17,
+   "direct_cost": 79571.61,
+   "contribution_margin": 35749.56,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-02",
+   "revenue": 115664.16,
+   "direct_cost": 80964.91,
+   "contribution_margin": 34699.25,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-03",
+   "revenue": 122727.82,
+   "direct_cost": 85909.47,
+   "contribution_margin": 36818.35,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-04",
+   "revenue": 118571.15,
+   "direct_cost": 81814.09,
+   "contribution_margin": 36757.06,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-05",
+   "revenue": 125462.48,
+   "direct_cost": 86569.11,
+   "contribution_margin": 38893.37,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-06",
+   "revenue": 126458.21,
+   "direct_cost": 85991.58,
+   "contribution_margin": 40466.63,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-07",
+   "revenue": 130039.95,
+   "direct_cost": 91027.96,
+   "contribution_margin": 39011.99,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-08",
+   "revenue": 127825.04,
+   "direct_cost": 89477.53,
+   "contribution_margin": 38347.51,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-09",
+   "revenue": 132296.75,
+   "direct_cost": 91284.76,
+   "contribution_margin": 41011.99,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-10",
+   "revenue": 133872.88,
+   "direct_cost": 93711.02,
+   "contribution_margin": 40161.86,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-11",
+   "revenue": 135956.41,
+   "direct_cost": 95169.49,
+   "contribution_margin": 40786.92,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-12",
+   "revenue": 141573.69,
+   "direct_cost": 99101.58,
+   "contribution_margin": 42472.11,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-01",
+   "revenue": 129571.89,
+   "direct_cost": 82926.01,
+   "contribution_margin": 46645.88,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-02",
+   "revenue": 127546.73,
+   "direct_cost": 86731.78,
+   "contribution_margin": 40814.95,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-03",
+   "revenue": 121050.49,
+   "direct_cost": 83524.84,
+   "contribution_margin": 37525.65,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-04",
+   "revenue": 117046.33,
+   "direct_cost": 83102.89,
+   "contribution_margin": 33943.44,
+   "contribution_margin_pct": 29
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-05",
+   "revenue": 118048.17,
+   "direct_cost": 84994.68,
+   "contribution_margin": 33053.49,
+   "contribution_margin_pct": 28
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-06",
+   "revenue": 114464.27,
+   "direct_cost": 84703.56,
+   "contribution_margin": 29760.71,
+   "contribution_margin_pct": 26
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-07",
+   "revenue": 108743.44,
+   "direct_cost": 84819.88,
+   "contribution_margin": 23923.56,
+   "contribution_margin_pct": 22
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-08",
+   "revenue": 107238.3,
+   "direct_cost": 85790.64,
+   "contribution_margin": 21447.66,
+   "contribution_margin_pct": 20
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-09",
+   "revenue": 105628.77,
+   "direct_cost": 85559.3,
+   "contribution_margin": 20069.47,
+   "contribution_margin_pct": 19
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-10",
+   "revenue": 100945.81,
+   "direct_cost": 82775.56,
+   "contribution_margin": 18170.25,
+   "contribution_margin_pct": 18
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-11",
+   "revenue": 96135.64,
+   "direct_cost": 80753.94,
+   "contribution_margin": 15381.7,
+   "contribution_margin_pct": 16
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-12",
+   "revenue": 92875.35,
+   "direct_cost": 79872.8,
+   "contribution_margin": 13002.55,
+   "contribution_margin_pct": 14
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-01",
+   "revenue": 115365.4,
+   "direct_cost": 79602.13,
+   "contribution_margin": 35763.27,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-02",
+   "revenue": 116663.17,
+   "direct_cost": 81664.22,
+   "contribution_margin": 34998.95,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-03",
+   "revenue": 119583.29,
+   "direct_cost": 82512.47,
+   "contribution_margin": 37070.82,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-04",
+   "revenue": 117700.24,
+   "direct_cost": 81213.17,
+   "contribution_margin": 36487.07,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-05",
+   "revenue": 118860.28,
+   "direct_cost": 82013.59,
+   "contribution_margin": 36846.69,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-06",
+   "revenue": 117088.54,
+   "direct_cost": 81961.98,
+   "contribution_margin": 35126.56,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-07",
+   "revenue": 117970.38,
+   "direct_cost": 83758.97,
+   "contribution_margin": 34211.41,
+   "contribution_margin_pct": 29
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-08",
+   "revenue": 122027.75,
+   "direct_cost": 84199.15,
+   "contribution_margin": 37828.6,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-09",
+   "revenue": 122415.99,
+   "direct_cost": 84467.03,
+   "contribution_margin": 37948.96,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-10",
+   "revenue": 123071.34,
+   "direct_cost": 84919.22,
+   "contribution_margin": 38152.12,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-11",
+   "revenue": 123057.11,
+   "direct_cost": 83678.83,
+   "contribution_margin": 39378.28,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-12",
+   "revenue": 130887.68,
+   "direct_cost": 91621.38,
+   "contribution_margin": 39266.3,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-01",
+   "revenue": 115411.18,
+   "direct_cost": 80787.83,
+   "contribution_margin": 34623.35,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-02",
+   "revenue": 122225.04,
+   "direct_cost": 84335.28,
+   "contribution_margin": 37889.76,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-03",
+   "revenue": 126166.79,
+   "direct_cost": 87055.09,
+   "contribution_margin": 39111.7,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-04",
+   "revenue": 136872.7,
+   "direct_cost": 93073.44,
+   "contribution_margin": 43799.26,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-05",
+   "revenue": 144727.92,
+   "direct_cost": 95520.43,
+   "contribution_margin": 49207.49,
+   "contribution_margin_pct": 34
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-06",
+   "revenue": 156917.07,
+   "direct_cost": 105134.44,
+   "contribution_margin": 51782.63,
+   "contribution_margin_pct": 33
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-07",
+   "revenue": 167599.01,
+   "direct_cost": 110615.35,
+   "contribution_margin": 56983.66,
+   "contribution_margin_pct": 34
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-08",
+   "revenue": 168732.87,
+   "direct_cost": 106301.71,
+   "contribution_margin": 62431.16,
+   "contribution_margin_pct": 37
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-09",
+   "revenue": 181964.32,
+   "direct_cost": 116457.16,
+   "contribution_margin": 65507.16,
+   "contribution_margin_pct": 36
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-10",
+   "revenue": 184140.42,
+   "direct_cost": 116008.46,
+   "contribution_margin": 68131.96,
+   "contribution_margin_pct": 37
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-11",
+   "revenue": 202400.69,
+   "direct_cost": 127512.43,
+   "contribution_margin": 74888.26,
+   "contribution_margin_pct": 37
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-12",
+   "revenue": 208672.51,
+   "direct_cost": 131463.68,
+   "contribution_margin": 77208.83,
+   "contribution_margin_pct": 37
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-01",
+   "revenue": 123728.92,
+   "direct_cost": 87847.53,
+   "contribution_margin": 35881.39,
+   "contribution_margin_pct": 29
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-02",
+   "revenue": 123737.02,
+   "direct_cost": 86615.91,
+   "contribution_margin": 37121.11,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-03",
+   "revenue": 125702.59,
+   "direct_cost": 87991.81,
+   "contribution_margin": 37710.78,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-04",
+   "revenue": 122512.2,
+   "direct_cost": 86983.66,
+   "contribution_margin": 35528.54,
+   "contribution_margin_pct": 29
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-05",
+   "revenue": 126060.82,
+   "direct_cost": 85721.36,
+   "contribution_margin": 40339.46,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-06",
+   "revenue": 129898.39,
+   "direct_cost": 89629.89,
+   "contribution_margin": 40268.5,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-07",
+   "revenue": 127133.64,
+   "direct_cost": 88993.55,
+   "contribution_margin": 38140.09,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-08",
+   "revenue": 130095.66,
+   "direct_cost": 91066.96,
+   "contribution_margin": 39028.7,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-09",
+   "revenue": 126583.18,
+   "direct_cost": 86076.56,
+   "contribution_margin": 40506.62,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-10",
+   "revenue": 134188.47,
+   "direct_cost": 92590.04,
+   "contribution_margin": 41598.43,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-11",
+   "revenue": 132301.72,
+   "direct_cost": 91288.19,
+   "contribution_margin": 41013.53,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-12",
+   "revenue": 130330.95,
+   "direct_cost": 89928.36,
+   "contribution_margin": 40402.59,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-01",
+   "revenue": 121348.11,
+   "direct_cost": 83730.2,
+   "contribution_margin": 37617.91,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-02",
+   "revenue": 123009.2,
+   "direct_cost": 86106.44,
+   "contribution_margin": 36902.76,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-03",
+   "revenue": 118321.26,
+   "direct_cost": 81641.67,
+   "contribution_margin": 36679.59,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-04",
+   "revenue": 121145.49,
+   "direct_cost": 84801.84,
+   "contribution_margin": 36343.65,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-05",
+   "revenue": 120531.19,
+   "direct_cost": 84371.83,
+   "contribution_margin": 36159.36,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-06",
+   "revenue": 125071.67,
+   "direct_cost": 86299.45,
+   "contribution_margin": 38772.22,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-07",
+   "revenue": 122649.61,
+   "direct_cost": 83401.73,
+   "contribution_margin": 39247.88,
+   "contribution_margin_pct": 32
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-08",
+   "revenue": 125997.84,
+   "direct_cost": 86938.51,
+   "contribution_margin": 39059.33,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-09",
+   "revenue": 126502.97,
+   "direct_cost": 88552.08,
+   "contribution_margin": 37950.89,
+   "contribution_margin_pct": 30
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-10",
+   "revenue": 122733.86,
+   "direct_cost": 84686.36,
+   "contribution_margin": 38047.5,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-11",
+   "revenue": 127184.2,
+   "direct_cost": 87757.1,
+   "contribution_margin": 39427.1,
+   "contribution_margin_pct": 31
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-12",
+   "revenue": 124972.93,
+   "direct_cost": 86231.32,
+   "contribution_margin": 38741.61,
+   "contribution_margin_pct": 31
+  }
+ ],
+ "quality": [
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-01",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 37.6,
+   "sla_met_pct": 92.7
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-02",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.1,
+   "sla_met_pct": 92.9
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-03",
+   "satisfaction_score": 7.9,
+   "door_to_needle_min": 42.2,
+   "sla_met_pct": 88.9
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-04",
+   "satisfaction_score": 7.6,
+   "door_to_needle_min": 44.4,
+   "sla_met_pct": 88.9
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-05",
+   "satisfaction_score": 7.8,
+   "door_to_needle_min": 43.8,
+   "sla_met_pct": 83.7
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-06",
+   "satisfaction_score": 7.5,
+   "door_to_needle_min": 43.2,
+   "sla_met_pct": 84.2
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-07",
+   "satisfaction_score": 7.1,
+   "door_to_needle_min": 46.7,
+   "sla_met_pct": 85.7
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-08",
+   "satisfaction_score": 7.3,
+   "door_to_needle_min": 48.6,
+   "sla_met_pct": 79.9
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-09",
+   "satisfaction_score": 6.6,
+   "door_to_needle_min": 51.5,
+   "sla_met_pct": 80.4
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-10",
+   "satisfaction_score": 6.8,
+   "door_to_needle_min": 53,
+   "sla_met_pct": 78.4
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-11",
+   "satisfaction_score": 6.6,
+   "door_to_needle_min": 52.2,
+   "sla_met_pct": 77.9
+  },
+  {
+   "client_id": "H-101",
+   "hospital_name": "Ridgeview Regional Medical Center",
+   "month": "2025-12",
+   "satisfaction_score": 6.5,
+   "door_to_needle_min": 54.1,
+   "sla_met_pct": 76.1
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-01",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 39.8,
+   "sla_met_pct": 90.2
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-02",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.1,
+   "sla_met_pct": 90.4
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-03",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.5,
+   "sla_met_pct": 91.6
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-04",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.2,
+   "sla_met_pct": 88.2
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-05",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.2,
+   "sla_met_pct": 87.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-06",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.9,
+   "sla_met_pct": 92
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-07",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 41.5,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-08",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 88.6
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-09",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.5,
+   "sla_met_pct": 92.2
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-10",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.3,
+   "sla_met_pct": 88.1
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-11",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.6,
+   "sla_met_pct": 89.8
+  },
+  {
+   "client_id": "H-102",
+   "hospital_name": "Lakeshore Community Hospital",
+   "month": "2025-12",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 40.1,
+   "sla_met_pct": 88.7
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-01",
+   "satisfaction_score": 7.9,
+   "door_to_needle_min": 43.2,
+   "sla_met_pct": 88.3
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-02",
+   "satisfaction_score": 7.8,
+   "door_to_needle_min": 40.5,
+   "sla_met_pct": 89.5
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-03",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 40.5,
+   "sla_met_pct": 90.4
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-04",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.3,
+   "sla_met_pct": 87.2
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-05",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 39,
+   "sla_met_pct": 90.8
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-06",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-07",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 39,
+   "sla_met_pct": 93.5
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-08",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 39.7,
+   "sla_met_pct": 90.6
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-09",
+   "satisfaction_score": 8.7,
+   "door_to_needle_min": 37,
+   "sla_met_pct": 94
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-10",
+   "satisfaction_score": 8.8,
+   "door_to_needle_min": 38.5,
+   "sla_met_pct": 93.5
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-11",
+   "satisfaction_score": 8.8,
+   "door_to_needle_min": 37,
+   "sla_met_pct": 92.6
+  },
+  {
+   "client_id": "H-103",
+   "hospital_name": "Summit Valley Health System",
+   "month": "2025-12",
+   "satisfaction_score": 8.8,
+   "door_to_needle_min": 35.4,
+   "sla_met_pct": 94.8
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-01",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 36.4,
+   "sla_met_pct": 92.9
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-02",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 38.6,
+   "sla_met_pct": 93.5
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-03",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 41.9,
+   "sla_met_pct": 91.3
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-04",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 41,
+   "sla_met_pct": 86.7
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-05",
+   "satisfaction_score": 7.9,
+   "door_to_needle_min": 42.2,
+   "sla_met_pct": 83.4
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-06",
+   "satisfaction_score": 7.5,
+   "door_to_needle_min": 45.5,
+   "sla_met_pct": 87.5
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-07",
+   "satisfaction_score": 7.5,
+   "door_to_needle_min": 48.9,
+   "sla_met_pct": 80.3
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-08",
+   "satisfaction_score": 7.2,
+   "door_to_needle_min": 48.3,
+   "sla_met_pct": 83.9
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-09",
+   "satisfaction_score": 6.7,
+   "door_to_needle_min": 51.7,
+   "sla_met_pct": 81.5
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-10",
+   "satisfaction_score": 6.6,
+   "door_to_needle_min": 52.8,
+   "sla_met_pct": 78.8
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-11",
+   "satisfaction_score": 6.5,
+   "door_to_needle_min": 51.3,
+   "sla_met_pct": 78.6
+  },
+  {
+   "client_id": "H-104",
+   "hospital_name": "Harborview General Hospital",
+   "month": "2025-12",
+   "satisfaction_score": 6.5,
+   "door_to_needle_min": 55.8,
+   "sla_met_pct": 76.8
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-01",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 39.4,
+   "sla_met_pct": 92.4
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-02",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39,
+   "sla_met_pct": 88.9
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-03",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.1,
+   "sla_met_pct": 90
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-04",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 40.4,
+   "sla_met_pct": 87.8
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-05",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.4,
+   "sla_met_pct": 92.1
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-06",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.8,
+   "sla_met_pct": 88
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-07",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 89.8
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-08",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.4,
+   "sla_met_pct": 90.9
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-09",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.7,
+   "sla_met_pct": 91.3
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-10",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.3,
+   "sla_met_pct": 92.4
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-11",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.7,
+   "sla_met_pct": 89.6
+  },
+  {
+   "client_id": "H-105",
+   "hospital_name": "Prairie Winds Medical Center",
+   "month": "2025-12",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 40.1,
+   "sla_met_pct": 91.3
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-01",
+   "satisfaction_score": 7.8,
+   "door_to_needle_min": 42.6,
+   "sla_met_pct": 85.5
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-02",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 41.6,
+   "sla_met_pct": 90.1
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-03",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 42.5,
+   "sla_met_pct": 87.7
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-04",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.9,
+   "sla_met_pct": 87.6
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-05",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 90.5
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-06",
+   "satisfaction_score": 8.6,
+   "door_to_needle_min": 38.3,
+   "sla_met_pct": 88.4
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-07",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 37.6,
+   "sla_met_pct": 92.7
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-08",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 39.2,
+   "sla_met_pct": 90.2
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-09",
+   "satisfaction_score": 8.6,
+   "door_to_needle_min": 37.5,
+   "sla_met_pct": 90.8
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-10",
+   "satisfaction_score": 9,
+   "door_to_needle_min": 37.6,
+   "sla_met_pct": 95
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-11",
+   "satisfaction_score": 9,
+   "door_to_needle_min": 37,
+   "sla_met_pct": 92.5
+  },
+  {
+   "client_id": "H-106",
+   "hospital_name": "Cedar Point Regional Hospital",
+   "month": "2025-12",
+   "satisfaction_score": 8.7,
+   "door_to_needle_min": 36.3,
+   "sla_met_pct": 92
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-01",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 39.6,
+   "sla_met_pct": 87.5
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-02",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 39.3,
+   "sla_met_pct": 91.5
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-03",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 39.1,
+   "sla_met_pct": 92
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-04",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 40.9,
+   "sla_met_pct": 90.1
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-05",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 40.4,
+   "sla_met_pct": 89.8
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-06",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 41,
+   "sla_met_pct": 92.5
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-07",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 40.5,
+   "sla_met_pct": 87.6
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-08",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.3,
+   "sla_met_pct": 89.9
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-09",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 40.8,
+   "sla_met_pct": 89.5
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-10",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 39.9,
+   "sla_met_pct": 91
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-11",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 40.9,
+   "sla_met_pct": 90
+  },
+  {
+   "client_id": "H-107",
+   "hospital_name": "Bluegrass Memorial Hospital",
+   "month": "2025-12",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 42.1,
+   "sla_met_pct": 92.2
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-01",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 36.5,
+   "sla_met_pct": 90
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-02",
+   "satisfaction_score": 7.9,
+   "door_to_needle_min": 40.2,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-03",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 42.4,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-04",
+   "satisfaction_score": 7.5,
+   "door_to_needle_min": 43,
+   "sla_met_pct": 86.9
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-05",
+   "satisfaction_score": 7.5,
+   "door_to_needle_min": 45,
+   "sla_met_pct": 83.7
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-06",
+   "satisfaction_score": 7.5,
+   "door_to_needle_min": 46.3,
+   "sla_met_pct": 87.2
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-07",
+   "satisfaction_score": 7.3,
+   "door_to_needle_min": 45.4,
+   "sla_met_pct": 79.8
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-08",
+   "satisfaction_score": 6.9,
+   "door_to_needle_min": 48,
+   "sla_met_pct": 83.1
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-09",
+   "satisfaction_score": 7.2,
+   "door_to_needle_min": 48.3,
+   "sla_met_pct": 76.6
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-10",
+   "satisfaction_score": 6.7,
+   "door_to_needle_min": 50.3,
+   "sla_met_pct": 75
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-11",
+   "satisfaction_score": 6.5,
+   "door_to_needle_min": 52.3,
+   "sla_met_pct": 77.2
+  },
+  {
+   "client_id": "H-108",
+   "hospital_name": "Northgate Health Partners",
+   "month": "2025-12",
+   "satisfaction_score": 6.4,
+   "door_to_needle_min": 53.5,
+   "sla_met_pct": 75.8
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-01",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 39.6,
+   "sla_met_pct": 92.6
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-02",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 40.3,
+   "sla_met_pct": 91.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-03",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 90.6
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-04",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.6,
+   "sla_met_pct": 90.8
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-05",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 39.7,
+   "sla_met_pct": 87.4
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-06",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 92.3
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-07",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.4,
+   "sla_met_pct": 91.8
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-08",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40.3,
+   "sla_met_pct": 88.7
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-09",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.4,
+   "sla_met_pct": 88.3
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-10",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41,
+   "sla_met_pct": 91.1
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-11",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.7,
+   "sla_met_pct": 89
+  },
+  {
+   "client_id": "H-109",
+   "hospital_name": "Desert Sky Medical Center",
+   "month": "2025-12",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 41.9,
+   "sla_met_pct": 89.1
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-01",
+   "satisfaction_score": 7.8,
+   "door_to_needle_min": 42.7,
+   "sla_met_pct": 86.8
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-02",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 42.4,
+   "sla_met_pct": 89.9
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-03",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 41.1,
+   "sla_met_pct": 87
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-04",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39,
+   "sla_met_pct": 89.3
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-05",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 38.4,
+   "sla_met_pct": 89
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-06",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 38.2,
+   "sla_met_pct": 91.7
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-07",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.1,
+   "sla_met_pct": 91.2
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-08",
+   "satisfaction_score": 8.7,
+   "door_to_needle_min": 38.7,
+   "sla_met_pct": 92.7
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-09",
+   "satisfaction_score": 8.5,
+   "door_to_needle_min": 37,
+   "sla_met_pct": 89.8
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-10",
+   "satisfaction_score": 8.7,
+   "door_to_needle_min": 37.6,
+   "sla_met_pct": 92.3
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-11",
+   "satisfaction_score": 8.7,
+   "door_to_needle_min": 36.5,
+   "sla_met_pct": 94
+  },
+  {
+   "client_id": "H-110",
+   "hospital_name": "Foothills Community Health",
+   "month": "2025-12",
+   "satisfaction_score": 8.8,
+   "door_to_needle_min": 35.8,
+   "sla_met_pct": 91.2
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-01",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.7,
+   "sla_met_pct": 87.4
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-02",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.1,
+   "sla_met_pct": 89
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-03",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 41,
+   "sla_met_pct": 91.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-04",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.2,
+   "sla_met_pct": 90.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-05",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.2,
+   "sla_met_pct": 91.8
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-06",
+   "satisfaction_score": 8,
+   "door_to_needle_min": 41.5,
+   "sla_met_pct": 92.3
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-07",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.4,
+   "sla_met_pct": 87.8
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-08",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 40.8,
+   "sla_met_pct": 91.9
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-09",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.9,
+   "sla_met_pct": 88.6
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-10",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.3,
+   "sla_met_pct": 90.5
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-11",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.7,
+   "sla_met_pct": 90.1
+  },
+  {
+   "client_id": "H-111",
+   "hospital_name": "Magnolia Regional Medical Center",
+   "month": "2025-12",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 40,
+   "sla_met_pct": 89.4
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-01",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.4,
+   "sla_met_pct": 92.3
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-02",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.2,
+   "sla_met_pct": 90.3
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-03",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.5,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-04",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 40.5,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-05",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41,
+   "sla_met_pct": 92
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-06",
+   "satisfaction_score": 8.1,
+   "door_to_needle_min": 40.8,
+   "sla_met_pct": 90.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-07",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 39.8,
+   "sla_met_pct": 88.1
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-08",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.3,
+   "sla_met_pct": 87.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-09",
+   "satisfaction_score": 8.2,
+   "door_to_needle_min": 40.7,
+   "sla_met_pct": 89.7
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-10",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 41.4,
+   "sla_met_pct": 88.9
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-11",
+   "satisfaction_score": 8.4,
+   "door_to_needle_min": 41.5,
+   "sla_met_pct": 88.8
+  },
+  {
+   "client_id": "H-112",
+   "hospital_name": "Pinecrest Valley Hospital",
+   "month": "2025-12",
+   "satisfaction_score": 8.3,
+   "door_to_needle_min": 40.9,
+   "sla_met_pct": 87.6
+  }
+ ],
+ "clinicians": [
+  {
+   "clinician_id": "CL-1001",
+   "region": "Midwest",
+   "specialty": "Critical Care",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 67,
+   "utilization_pct": 68.3,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1002",
+   "region": "Northeast",
+   "specialty": "Neurology",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 71,
+   "utilization_pct": 90.8,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1003",
+   "region": "South",
+   "specialty": "Neurology",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 133,
+   "utilization_pct": 74.9,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1004",
+   "region": "West",
+   "specialty": "Critical Care",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 79,
+   "utilization_pct": 68.8,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1005",
+   "region": "Midwest",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 70,
+   "utilization_pct": 74.4,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1006",
+   "region": "West",
+   "specialty": "Critical Care",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 127,
+   "utilization_pct": 56.7,
+   "attrition_risk_90d": "Yes"
+  },
+  {
+   "clinician_id": "CL-1007",
+   "region": "West",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 112,
+   "utilization_pct": 70.6,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1008",
+   "region": "Northeast",
+   "specialty": "Neurology",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 142,
+   "utilization_pct": 84.2,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1009",
+   "region": "Northeast",
+   "specialty": "Neurology",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 146,
+   "utilization_pct": 57.8,
+   "attrition_risk_90d": "Yes"
+  },
+  {
+   "clinician_id": "CL-1010",
+   "region": "South",
+   "specialty": "Psychiatry",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 70,
+   "utilization_pct": 67.2,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1011",
+   "region": "West",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 149,
+   "utilization_pct": 94.4,
+   "attrition_risk_90d": "Yes"
+  },
+  {
+   "clinician_id": "CL-1012",
+   "region": "South",
+   "specialty": "Neurology",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 131,
+   "utilization_pct": 60.5,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1013",
+   "region": "South",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 145,
+   "utilization_pct": 82.7,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1014",
+   "region": "Midwest",
+   "specialty": "Critical Care",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 106,
+   "utilization_pct": 82.8,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1015",
+   "region": "Midwest",
+   "specialty": "Psychiatry",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 103,
+   "utilization_pct": 70.6,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1016",
+   "region": "South",
+   "specialty": "Psychiatry",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 69,
+   "utilization_pct": 63.3,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1017",
+   "region": "Northeast",
+   "specialty": "Neurology",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 158,
+   "utilization_pct": 91.3,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1018",
+   "region": "Midwest",
+   "specialty": "Psychiatry",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 108,
+   "utilization_pct": 83.5,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1019",
+   "region": "West",
+   "specialty": "Psychiatry",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 116,
+   "utilization_pct": 62,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1020",
+   "region": "Midwest",
+   "specialty": "Psychiatry",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 138,
+   "utilization_pct": 72.7,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1021",
+   "region": "Northeast",
+   "specialty": "Critical Care",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 128,
+   "utilization_pct": 87.4,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1022",
+   "region": "West",
+   "specialty": "Critical Care",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 107,
+   "utilization_pct": 68.3,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1023",
+   "region": "South",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 124,
+   "utilization_pct": 74.9,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1024",
+   "region": "South",
+   "specialty": "Psychiatry",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 77,
+   "utilization_pct": 96.5,
+   "attrition_risk_90d": "Yes"
+  },
+  {
+   "clinician_id": "CL-1025",
+   "region": "Northeast",
+   "specialty": "Critical Care",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 130,
+   "utilization_pct": 57.2,
+   "attrition_risk_90d": "Yes"
+  },
+  {
+   "clinician_id": "CL-1026",
+   "region": "Midwest",
+   "specialty": "Neurology",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 70,
+   "utilization_pct": 85.6,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1027",
+   "region": "West",
+   "specialty": "Psychiatry",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 71,
+   "utilization_pct": 66.7,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1028",
+   "region": "West",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 113,
+   "utilization_pct": 90.1,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1029",
+   "region": "Midwest",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 109,
+   "utilization_pct": 72,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1030",
+   "region": "Midwest",
+   "specialty": "Neurology",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 72,
+   "utilization_pct": 71.1,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1031",
+   "region": "Northeast",
+   "specialty": "Psychiatry",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 96,
+   "utilization_pct": 89,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1032",
+   "region": "South",
+   "specialty": "Psychiatry",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 120,
+   "utilization_pct": 84.9,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1033",
+   "region": "South",
+   "specialty": "Neurology",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 92,
+   "utilization_pct": 81.5,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1034",
+   "region": "West",
+   "specialty": "Critical Care",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 159,
+   "utilization_pct": 90.9,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1035",
+   "region": "Northeast",
+   "specialty": "Neurology",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 90,
+   "utilization_pct": 65.2,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1036",
+   "region": "South",
+   "specialty": "Critical Care",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 74,
+   "utilization_pct": 82.5,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1037",
+   "region": "South",
+   "specialty": "Neurology",
+   "fte_status": "0.5 FTE",
+   "avg_encounters_per_month": 125,
+   "utilization_pct": 80.7,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1038",
+   "region": "West",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "0.8 FTE",
+   "avg_encounters_per_month": 60,
+   "utilization_pct": 85.9,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1039",
+   "region": "Northeast",
+   "specialty": "Critical Care",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 145,
+   "utilization_pct": 65.3,
+   "attrition_risk_90d": "No"
+  },
+  {
+   "clinician_id": "CL-1040",
+   "region": "Midwest",
+   "specialty": "Hospitalist Medicine",
+   "fte_status": "1.0 FTE",
+   "avg_encounters_per_month": 127,
+   "utilization_pct": 77.5,
+   "attrition_risk_90d": "No"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+client_id,hospital_name,region,licensed_beds,service_line,contract_start,annual_contract_value,renewal_month,account_status
+H-101,Ridgeview Regional Medical Center,Midwest,220,Tele-Neurology,2022-07-01,1866000,2026-01,At Risk
+H-102,Lakeshore Community Hospital,Midwest,140,Tele-Neurology,2022-07-01,1071000,2026-02,Active
+H-103,Summit Valley Health System,West,310,Tele-Neurology,2022-07-01,1980000,2026-11,Active - Expansion Opportunity
+H-104,Harborview General Hospital,Northeast,180,Tele-Neurology,2022-07-01,1834000,2026-01,At Risk
+H-105,Prairie Winds Medical Center,Midwest,95,Tele-Neurology,2022-07-01,966000,2026-02,Active
+H-106,Cedar Point Regional Hospital,South,260,Tele-Neurology,2022-07-01,1830000,2026-12,Active - Expansion Opportunity
+H-107,Bluegrass Memorial Hospital,South,150,Tele-Neurology,2022-07-01,1054000,2026-11,Active
+H-108,Northgate Health Partners,Northeast,200,Tele-Neurology,2022-07-01,1976000,2026-01,At Risk
+H-109,Desert Sky Medical Center,West,175,Tele-Neurology,2022-07-01,1389000,2026-03,Active
+H-110,Foothills Community Health,West,130,Tele-Neurology,2022-07-01,1302000,2026-03,Active - Expansion Opportunity
+H-111,Magnolia Regional Medical Center,South,210,Tele-Neurology,2022-07-01,965000,2026-01,Active
+H-112,Pinecrest Valley Hospital,Northeast,160,Tele-Neurology,2022-07-01,1493000,2026-11,Active

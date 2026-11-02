@@ -1,0 +1,41 @@
+clinician_id,region,specialty,fte_status,avg_encounters_per_month,utilization_pct,attrition_risk_90d
+CL-1001,Midwest,Critical Care,1.0 FTE,67,68.3,No
+CL-1002,Northeast,Neurology,0.5 FTE,71,90.8,No
+CL-1003,South,Neurology,0.8 FTE,133,74.9,No
+CL-1004,West,Critical Care,0.5 FTE,79,68.8,No
+CL-1005,Midwest,Hospitalist Medicine,0.5 FTE,70,74.4,No
+CL-1006,West,Critical Care,0.8 FTE,127,56.7,Yes
+CL-1007,West,Hospitalist Medicine,0.8 FTE,112,70.6,No
+CL-1008,Northeast,Neurology,0.5 FTE,142,84.2,No
+CL-1009,Northeast,Neurology,0.5 FTE,146,57.8,Yes
+CL-1010,South,Psychiatry,0.8 FTE,70,67.2,No
+CL-1011,West,Hospitalist Medicine,0.5 FTE,149,94.4,Yes
+CL-1012,South,Neurology,0.8 FTE,131,60.5,No
+CL-1013,South,Hospitalist Medicine,1.0 FTE,145,82.7,No
+CL-1014,Midwest,Critical Care,0.5 FTE,106,82.8,No
+CL-1015,Midwest,Psychiatry,1.0 FTE,103,70.6,No
+CL-1016,South,Psychiatry,1.0 FTE,69,63.3,No
+CL-1017,Northeast,Neurology,0.5 FTE,158,91.3,No
+CL-1018,Midwest,Psychiatry,0.5 FTE,108,83.5,No
+CL-1019,West,Psychiatry,0.5 FTE,116,62,No
+CL-1020,Midwest,Psychiatry,0.8 FTE,138,72.7,No
+CL-1021,Northeast,Critical Care,1.0 FTE,128,87.4,No
+CL-1022,West,Critical Care,1.0 FTE,107,68.3,No
+CL-1023,South,Hospitalist Medicine,0.8 FTE,124,74.9,No
+CL-1024,South,Psychiatry,0.5 FTE,77,96.5,Yes
+CL-1025,Northeast,Critical Care,0.8 FTE,130,57.2,Yes
+CL-1026,Midwest,Neurology,0.8 FTE,70,85.6,No
+CL-1027,West,Psychiatry,0.8 FTE,71,66.7,No
+CL-1028,West,Hospitalist Medicine,1.0 FTE,113,90.1,No
+CL-1029,Midwest,Hospitalist Medicine,1.0 FTE,109,72,No
+CL-1030,Midwest,Neurology,0.8 FTE,72,71.1,No
+CL-1031,Northeast,Psychiatry,1.0 FTE,96,89,No
+CL-1032,South,Psychiatry,0.5 FTE,120,84.9,No
+CL-1033,South,Neurology,1.0 FTE,92,81.5,No
+CL-1034,West,Critical Care,1.0 FTE,159,90.9,No
+CL-1035,Northeast,Neurology,1.0 FTE,90,65.2,No
+CL-1036,South,Critical Care,1.0 FTE,74,82.5,No
+CL-1037,South,Neurology,0.5 FTE,125,80.7,No
+CL-1038,West,Hospitalist Medicine,0.8 FTE,60,85.9,No
+CL-1039,Northeast,Critical Care,1.0 FTE,145,65.3,No
+CL-1040,Midwest,Hospitalist Medicine,1.0 FTE,127,77.5,No

@@ -1,0 +1,145 @@
+client_id,hospital_name,month,revenue,direct_cost,contribution_margin,contribution_margin_pct
+H-101,Ridgeview Regional Medical Center,2025-01,136610.74,92895.3,43715.44,32
+H-101,Ridgeview Regional Medical Center,2025-02,133736.39,93615.47,40120.92,30
+H-101,Ridgeview Regional Medical Center,2025-03,128232.66,85915.88,42316.78,33
+H-101,Ridgeview Regional Medical Center,2025-04,129435.7,95782.42,33653.28,26
+H-101,Ridgeview Regional Medical Center,2025-05,119167.13,89375.35,29791.78,25
+H-101,Ridgeview Regional Medical Center,2025-06,121242.01,92143.93,29098.08,24
+H-101,Ridgeview Regional Medical Center,2025-07,112009.63,85127.32,26882.31,24
+H-101,Ridgeview Regional Medical Center,2025-08,111320.5,86829.99,24490.51,22
+H-101,Ridgeview Regional Medical Center,2025-09,103867.23,84132.46,19734.77,19
+H-101,Ridgeview Regional Medical Center,2025-10,101801.84,83477.51,18324.33,18
+H-101,Ridgeview Regional Medical Center,2025-11,92089.68,78276.23,13813.45,15
+H-101,Ridgeview Regional Medical Center,2025-12,94508.6,80332.31,14176.29,15
+H-102,Lakeshore Community Hospital,2025-01,123406.35,86384.45,37021.9,30
+H-102,Lakeshore Community Hospital,2025-02,125126.1,86337.01,38789.09,31
+H-102,Lakeshore Community Hospital,2025-03,127805.26,90741.73,37063.53,29
+H-102,Lakeshore Community Hospital,2025-04,131436.65,92005.66,39430.99,30
+H-102,Lakeshore Community Hospital,2025-05,130445.65,90007.5,40438.15,31
+H-102,Lakeshore Community Hospital,2025-06,131799.67,92259.77,39539.9,30
+H-102,Lakeshore Community Hospital,2025-07,127885.99,88241.33,39644.66,31
+H-102,Lakeshore Community Hospital,2025-08,129909.51,90936.66,38972.85,30
+H-102,Lakeshore Community Hospital,2025-09,132903.96,91703.73,41200.23,31
+H-102,Lakeshore Community Hospital,2025-10,136586.26,92878.66,43707.6,32
+H-102,Lakeshore Community Hospital,2025-11,134649.4,91561.59,43087.81,32
+H-102,Lakeshore Community Hospital,2025-12,138223.05,95373.9,42849.15,31
+H-103,Summit Valley Health System,2025-01,96597.39,68584.15,28013.24,29
+H-103,Summit Valley Health System,2025-02,106928.07,73780.37,33147.7,31
+H-103,Summit Valley Health System,2025-03,110824.88,75360.92,35463.96,32
+H-103,Summit Valley Health System,2025-04,125465.65,84061.99,41403.66,33
+H-103,Summit Valley Health System,2025-05,128027,84497.82,43529.18,34
+H-103,Summit Valley Health System,2025-06,141529.05,91993.88,49535.17,35
+H-103,Summit Valley Health System,2025-07,151540.12,100016.48,51523.64,34
+H-103,Summit Valley Health System,2025-08,160022.43,102414.36,57608.07,36
+H-103,Summit Valley Health System,2025-09,168221.69,107661.88,60559.81,36
+H-103,Summit Valley Health System,2025-10,184933.25,118357.28,66575.97,36
+H-103,Summit Valley Health System,2025-11,187927.76,120273.77,67653.99,36
+H-103,Summit Valley Health System,2025-12,192264.21,115358.53,76905.68,40
+H-104,Harborview General Hospital,2025-01,138591.37,88698.48,49892.89,36
+H-104,Harborview General Hospital,2025-02,138246.13,94007.37,44238.76,32
+H-104,Harborview General Hospital,2025-03,132658.9,92861.23,39797.67,30
+H-104,Harborview General Hospital,2025-04,130039.55,94928.87,35110.68,27
+H-104,Harborview General Hospital,2025-05,123072.29,91073.49,31998.8,26
+H-104,Harborview General Hospital,2025-06,121040.66,90780.49,30260.17,25
+H-104,Harborview General Hospital,2025-07,115842.49,89198.72,26643.77,23
+H-104,Harborview General Hospital,2025-08,113765.12,91012.1,22753.02,20
+H-104,Harborview General Hospital,2025-09,108989.23,88281.28,20707.95,19
+H-104,Harborview General Hospital,2025-10,104599.32,85771.44,18827.88,18
+H-104,Harborview General Hospital,2025-11,101236.09,85038.32,16197.77,16
+H-104,Harborview General Hospital,2025-12,100208.96,87181.8,13027.16,13
+H-105,Prairie Winds Medical Center,2025-01,118954.75,82078.78,36875.97,31
+H-105,Prairie Winds Medical Center,2025-02,117764.31,82435.02,35329.29,30
+H-105,Prairie Winds Medical Center,2025-03,120748.21,83316.26,37431.95,31
+H-105,Prairie Winds Medical Center,2025-04,118597.95,81832.59,36765.36,31
+H-105,Prairie Winds Medical Center,2025-05,119886.23,82721.5,37164.73,31
+H-105,Prairie Winds Medical Center,2025-06,118348.31,82843.82,35504.49,30
+H-105,Prairie Winds Medical Center,2025-07,122992.6,84864.89,38127.71,31
+H-105,Prairie Winds Medical Center,2025-08,119760.16,83832.11,35928.05,30
+H-105,Prairie Winds Medical Center,2025-09,118303.32,81629.29,36674.03,31
+H-105,Prairie Winds Medical Center,2025-10,118998.92,82109.25,36889.67,31
+H-105,Prairie Winds Medical Center,2025-11,117911.4,81358.87,36552.53,31
+H-105,Prairie Winds Medical Center,2025-12,117332.82,79786.32,37546.5,32
+H-106,Cedar Point Regional Hospital,2025-01,99150.22,69405.15,29745.07,30
+H-106,Cedar Point Regional Hospital,2025-02,107003.17,73832.19,33170.98,31
+H-106,Cedar Point Regional Hospital,2025-03,113681.63,78440.32,35241.31,31
+H-106,Cedar Point Regional Hospital,2025-04,127084.46,87688.28,39396.18,31
+H-106,Cedar Point Regional Hospital,2025-05,132756.81,91602.2,41154.61,31
+H-106,Cedar Point Regional Hospital,2025-06,149108.15,96920.3,52187.85,35
+H-106,Cedar Point Regional Hospital,2025-07,152766.07,100825.61,51940.46,34
+H-106,Cedar Point Regional Hospital,2025-08,163112.22,104391.82,58720.4,36
+H-106,Cedar Point Regional Hospital,2025-09,163981.87,106588.22,57393.65,35
+H-106,Cedar Point Regional Hospital,2025-10,182727.1,118772.61,63954.49,35
+H-106,Cedar Point Regional Hospital,2025-11,185818.85,115207.69,70611.16,38
+H-106,Cedar Point Regional Hospital,2025-12,200210.95,128135.01,72075.94,36
+H-107,Bluegrass Memorial Hospital,2025-01,115321.17,79571.61,35749.56,31
+H-107,Bluegrass Memorial Hospital,2025-02,115664.16,80964.91,34699.25,30
+H-107,Bluegrass Memorial Hospital,2025-03,122727.82,85909.47,36818.35,30
+H-107,Bluegrass Memorial Hospital,2025-04,118571.15,81814.09,36757.06,31
+H-107,Bluegrass Memorial Hospital,2025-05,125462.48,86569.11,38893.37,31
+H-107,Bluegrass Memorial Hospital,2025-06,126458.21,85991.58,40466.63,32
+H-107,Bluegrass Memorial Hospital,2025-07,130039.95,91027.96,39011.99,30
+H-107,Bluegrass Memorial Hospital,2025-08,127825.04,89477.53,38347.51,30
+H-107,Bluegrass Memorial Hospital,2025-09,132296.75,91284.76,41011.99,31
+H-107,Bluegrass Memorial Hospital,2025-10,133872.88,93711.02,40161.86,30
+H-107,Bluegrass Memorial Hospital,2025-11,135956.41,95169.49,40786.92,30
+H-107,Bluegrass Memorial Hospital,2025-12,141573.69,99101.58,42472.11,30
+H-108,Northgate Health Partners,2025-01,129571.89,82926.01,46645.88,36
+H-108,Northgate Health Partners,2025-02,127546.73,86731.78,40814.95,32
+H-108,Northgate Health Partners,2025-03,121050.49,83524.84,37525.65,31
+H-108,Northgate Health Partners,2025-04,117046.33,83102.89,33943.44,29
+H-108,Northgate Health Partners,2025-05,118048.17,84994.68,33053.49,28
+H-108,Northgate Health Partners,2025-06,114464.27,84703.56,29760.71,26
+H-108,Northgate Health Partners,2025-07,108743.44,84819.88,23923.56,22
+H-108,Northgate Health Partners,2025-08,107238.3,85790.64,21447.66,20
+H-108,Northgate Health Partners,2025-09,105628.77,85559.3,20069.47,19
+H-108,Northgate Health Partners,2025-10,100945.81,82775.56,18170.25,18
+H-108,Northgate Health Partners,2025-11,96135.64,80753.94,15381.7,16
+H-108,Northgate Health Partners,2025-12,92875.35,79872.8,13002.55,14
+H-109,Desert Sky Medical Center,2025-01,115365.4,79602.13,35763.27,31
+H-109,Desert Sky Medical Center,2025-02,116663.17,81664.22,34998.95,30
+H-109,Desert Sky Medical Center,2025-03,119583.29,82512.47,37070.82,31
+H-109,Desert Sky Medical Center,2025-04,117700.24,81213.17,36487.07,31
+H-109,Desert Sky Medical Center,2025-05,118860.28,82013.59,36846.69,31
+H-109,Desert Sky Medical Center,2025-06,117088.54,81961.98,35126.56,30
+H-109,Desert Sky Medical Center,2025-07,117970.38,83758.97,34211.41,29
+H-109,Desert Sky Medical Center,2025-08,122027.75,84199.15,37828.6,31
+H-109,Desert Sky Medical Center,2025-09,122415.99,84467.03,37948.96,31
+H-109,Desert Sky Medical Center,2025-10,123071.34,84919.22,38152.12,31
+H-109,Desert Sky Medical Center,2025-11,123057.11,83678.83,39378.28,32
+H-109,Desert Sky Medical Center,2025-12,130887.68,91621.38,39266.3,30
+H-110,Foothills Community Health,2025-01,115411.18,80787.83,34623.35,30
+H-110,Foothills Community Health,2025-02,122225.04,84335.28,37889.76,31
+H-110,Foothills Community Health,2025-03,126166.79,87055.09,39111.7,31
+H-110,Foothills Community Health,2025-04,136872.7,93073.44,43799.26,32
+H-110,Foothills Community Health,2025-05,144727.92,95520.43,49207.49,34
+H-110,Foothills Community Health,2025-06,156917.07,105134.44,51782.63,33
+H-110,Foothills Community Health,2025-07,167599.01,110615.35,56983.66,34
+H-110,Foothills Community Health,2025-08,168732.87,106301.71,62431.16,37
+H-110,Foothills Community Health,2025-09,181964.32,116457.16,65507.16,36
+H-110,Foothills Community Health,2025-10,184140.42,116008.46,68131.96,37
+H-110,Foothills Community Health,2025-11,202400.69,127512.43,74888.26,37
+H-110,Foothills Community Health,2025-12,208672.51,131463.68,77208.83,37
+H-111,Magnolia Regional Medical Center,2025-01,123728.92,87847.53,35881.39,29
+H-111,Magnolia Regional Medical Center,2025-02,123737.02,86615.91,37121.11,30
+H-111,Magnolia Regional Medical Center,2025-03,125702.59,87991.81,37710.78,30
+H-111,Magnolia Regional Medical Center,2025-04,122512.2,86983.66,35528.54,29
+H-111,Magnolia Regional Medical Center,2025-05,126060.82,85721.36,40339.46,32
+H-111,Magnolia Regional Medical Center,2025-06,129898.39,89629.89,40268.5,31
+H-111,Magnolia Regional Medical Center,2025-07,127133.64,88993.55,38140.09,30
+H-111,Magnolia Regional Medical Center,2025-08,130095.66,91066.96,39028.7,30
+H-111,Magnolia Regional Medical Center,2025-09,126583.18,86076.56,40506.62,32
+H-111,Magnolia Regional Medical Center,2025-10,134188.47,92590.04,41598.43,31
+H-111,Magnolia Regional Medical Center,2025-11,132301.72,91288.19,41013.53,31
+H-111,Magnolia Regional Medical Center,2025-12,130330.95,89928.36,40402.59,31
+H-112,Pinecrest Valley Hospital,2025-01,121348.11,83730.2,37617.91,31
+H-112,Pinecrest Valley Hospital,2025-02,123009.2,86106.44,36902.76,30
+H-112,Pinecrest Valley Hospital,2025-03,118321.26,81641.67,36679.59,31
+H-112,Pinecrest Valley Hospital,2025-04,121145.49,84801.84,36343.65,30
+H-112,Pinecrest Valley Hospital,2025-05,120531.19,84371.83,36159.36,30
+H-112,Pinecrest Valley Hospital,2025-06,125071.67,86299.45,38772.22,31
+H-112,Pinecrest Valley Hospital,2025-07,122649.61,83401.73,39247.88,32
+H-112,Pinecrest Valley Hospital,2025-08,125997.84,86938.51,39059.33,31
+H-112,Pinecrest Valley Hospital,2025-09,126502.97,88552.08,37950.89,30
+H-112,Pinecrest Valley Hospital,2025-10,122733.86,84686.36,38047.5,31
+H-112,Pinecrest Valley Hospital,2025-11,127184.2,87757.1,39427.1,31
+H-112,Pinecrest Valley Hospital,2025-12,124972.93,86231.32,38741.61,31

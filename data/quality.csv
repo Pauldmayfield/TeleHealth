@@ -1,0 +1,145 @@
+client_id,hospital_name,month,satisfaction_score,door_to_needle_min,sla_met_pct
+H-101,Ridgeview Regional Medical Center,2025-01,8.4,37.6,92.7
+H-101,Ridgeview Regional Medical Center,2025-02,8.2,40.1,92.9
+H-101,Ridgeview Regional Medical Center,2025-03,7.9,42.2,88.9
+H-101,Ridgeview Regional Medical Center,2025-04,7.6,44.4,88.9
+H-101,Ridgeview Regional Medical Center,2025-05,7.8,43.8,83.7
+H-101,Ridgeview Regional Medical Center,2025-06,7.5,43.2,84.2
+H-101,Ridgeview Regional Medical Center,2025-07,7.1,46.7,85.7
+H-101,Ridgeview Regional Medical Center,2025-08,7.3,48.6,79.9
+H-101,Ridgeview Regional Medical Center,2025-09,6.6,51.5,80.4
+H-101,Ridgeview Regional Medical Center,2025-10,6.8,53,78.4
+H-101,Ridgeview Regional Medical Center,2025-11,6.6,52.2,77.9
+H-101,Ridgeview Regional Medical Center,2025-12,6.5,54.1,76.1
+H-102,Lakeshore Community Hospital,2025-01,8.5,39.8,90.2
+H-102,Lakeshore Community Hospital,2025-02,8.2,39.1,90.4
+H-102,Lakeshore Community Hospital,2025-03,8.2,40.5,91.6
+H-102,Lakeshore Community Hospital,2025-04,8.4,41.2,88.2
+H-102,Lakeshore Community Hospital,2025-05,8.4,40.2,87.7
+H-102,Lakeshore Community Hospital,2025-06,8.4,40.9,92
+H-102,Lakeshore Community Hospital,2025-07,8,41.5,90.7
+H-102,Lakeshore Community Hospital,2025-08,8,39.5,88.6
+H-102,Lakeshore Community Hospital,2025-09,8.3,41.5,92.2
+H-102,Lakeshore Community Hospital,2025-10,8.4,40.3,88.1
+H-102,Lakeshore Community Hospital,2025-11,8.4,40.6,89.8
+H-102,Lakeshore Community Hospital,2025-12,8.3,40.1,88.7
+H-103,Summit Valley Health System,2025-01,7.9,43.2,88.3
+H-103,Summit Valley Health System,2025-02,7.8,40.5,89.5
+H-103,Summit Valley Health System,2025-03,8.3,40.5,90.4
+H-103,Summit Valley Health System,2025-04,8.4,40.3,87.2
+H-103,Summit Valley Health System,2025-05,8.4,39,90.8
+H-103,Summit Valley Health System,2025-06,8.2,39.5,90.7
+H-103,Summit Valley Health System,2025-07,8.5,39,93.5
+H-103,Summit Valley Health System,2025-08,8.5,39.7,90.6
+H-103,Summit Valley Health System,2025-09,8.7,37,94
+H-103,Summit Valley Health System,2025-10,8.8,38.5,93.5
+H-103,Summit Valley Health System,2025-11,8.8,37,92.6
+H-103,Summit Valley Health System,2025-12,8.8,35.4,94.8
+H-104,Harborview General Hospital,2025-01,8.5,36.4,92.9
+H-104,Harborview General Hospital,2025-02,8.4,38.6,93.5
+H-104,Harborview General Hospital,2025-03,8.2,41.9,91.3
+H-104,Harborview General Hospital,2025-04,8,41,86.7
+H-104,Harborview General Hospital,2025-05,7.9,42.2,83.4
+H-104,Harborview General Hospital,2025-06,7.5,45.5,87.5
+H-104,Harborview General Hospital,2025-07,7.5,48.9,80.3
+H-104,Harborview General Hospital,2025-08,7.2,48.3,83.9
+H-104,Harborview General Hospital,2025-09,6.7,51.7,81.5
+H-104,Harborview General Hospital,2025-10,6.6,52.8,78.8
+H-104,Harborview General Hospital,2025-11,6.5,51.3,78.6
+H-104,Harborview General Hospital,2025-12,6.5,55.8,76.8
+H-105,Prairie Winds Medical Center,2025-01,8.4,39.4,92.4
+H-105,Prairie Winds Medical Center,2025-02,8.2,39,88.9
+H-105,Prairie Winds Medical Center,2025-03,8.4,41.1,90
+H-105,Prairie Winds Medical Center,2025-04,8,40.4,87.8
+H-105,Prairie Winds Medical Center,2025-05,8.3,41.4,92.1
+H-105,Prairie Winds Medical Center,2025-06,8.2,39.8,88
+H-105,Prairie Winds Medical Center,2025-07,8.3,39.5,89.8
+H-105,Prairie Winds Medical Center,2025-08,8.3,41.4,90.9
+H-105,Prairie Winds Medical Center,2025-09,8.3,41.7,91.3
+H-105,Prairie Winds Medical Center,2025-10,8.4,40.3,92.4
+H-105,Prairie Winds Medical Center,2025-11,8.4,40.7,89.6
+H-105,Prairie Winds Medical Center,2025-12,8,40.1,91.3
+H-106,Cedar Point Regional Hospital,2025-01,7.8,42.6,85.5
+H-106,Cedar Point Regional Hospital,2025-02,8,41.6,90.1
+H-106,Cedar Point Regional Hospital,2025-03,8,42.5,87.7
+H-106,Cedar Point Regional Hospital,2025-04,8.2,39.9,87.6
+H-106,Cedar Point Regional Hospital,2025-05,8.3,39.5,90.5
+H-106,Cedar Point Regional Hospital,2025-06,8.6,38.3,88.4
+H-106,Cedar Point Regional Hospital,2025-07,8.2,37.6,92.7
+H-106,Cedar Point Regional Hospital,2025-08,8.5,39.2,90.2
+H-106,Cedar Point Regional Hospital,2025-09,8.6,37.5,90.8
+H-106,Cedar Point Regional Hospital,2025-10,9,37.6,95
+H-106,Cedar Point Regional Hospital,2025-11,9,37,92.5
+H-106,Cedar Point Regional Hospital,2025-12,8.7,36.3,92
+H-107,Bluegrass Memorial Hospital,2025-01,8.5,39.6,87.5
+H-107,Bluegrass Memorial Hospital,2025-02,8,39.3,91.5
+H-107,Bluegrass Memorial Hospital,2025-03,8.5,39.1,92
+H-107,Bluegrass Memorial Hospital,2025-04,8.1,40.9,90.1
+H-107,Bluegrass Memorial Hospital,2025-05,8.1,40.4,89.8
+H-107,Bluegrass Memorial Hospital,2025-06,8.1,41,92.5
+H-107,Bluegrass Memorial Hospital,2025-07,8.1,40.5,87.6
+H-107,Bluegrass Memorial Hospital,2025-08,8.3,41.3,89.9
+H-107,Bluegrass Memorial Hospital,2025-09,8,40.8,89.5
+H-107,Bluegrass Memorial Hospital,2025-10,8,39.9,91
+H-107,Bluegrass Memorial Hospital,2025-11,8.3,40.9,90
+H-107,Bluegrass Memorial Hospital,2025-12,8.1,42.1,92.2
+H-108,Northgate Health Partners,2025-01,8,36.5,90
+H-108,Northgate Health Partners,2025-02,7.9,40.2,90.7
+H-108,Northgate Health Partners,2025-03,8.1,42.4,90.7
+H-108,Northgate Health Partners,2025-04,7.5,43,86.9
+H-108,Northgate Health Partners,2025-05,7.5,45,83.7
+H-108,Northgate Health Partners,2025-06,7.5,46.3,87.2
+H-108,Northgate Health Partners,2025-07,7.3,45.4,79.8
+H-108,Northgate Health Partners,2025-08,6.9,48,83.1
+H-108,Northgate Health Partners,2025-09,7.2,48.3,76.6
+H-108,Northgate Health Partners,2025-10,6.7,50.3,75
+H-108,Northgate Health Partners,2025-11,6.5,52.3,77.2
+H-108,Northgate Health Partners,2025-12,6.4,53.5,75.8
+H-109,Desert Sky Medical Center,2025-01,8.3,39.6,92.6
+H-109,Desert Sky Medical Center,2025-02,8.3,40.3,91.7
+H-109,Desert Sky Medical Center,2025-03,8.3,39.5,90.6
+H-109,Desert Sky Medical Center,2025-04,8.2,40.6,90.8
+H-109,Desert Sky Medical Center,2025-05,8.1,39.7,87.4
+H-109,Desert Sky Medical Center,2025-06,8.2,39.5,92.3
+H-109,Desert Sky Medical Center,2025-07,8.3,41.4,91.8
+H-109,Desert Sky Medical Center,2025-08,8.4,40.3,88.7
+H-109,Desert Sky Medical Center,2025-09,8.4,41.4,88.3
+H-109,Desert Sky Medical Center,2025-10,8.3,41,91.1
+H-109,Desert Sky Medical Center,2025-11,8.4,41.7,89
+H-109,Desert Sky Medical Center,2025-12,8.2,41.9,89.1
+H-110,Foothills Community Health,2025-01,7.8,42.7,86.8
+H-110,Foothills Community Health,2025-02,8.3,42.4,89.9
+H-110,Foothills Community Health,2025-03,8.2,41.1,87
+H-110,Foothills Community Health,2025-04,8.2,39,89.3
+H-110,Foothills Community Health,2025-05,8.2,38.4,89
+H-110,Foothills Community Health,2025-06,8.5,38.2,91.7
+H-110,Foothills Community Health,2025-07,8.2,39.1,91.2
+H-110,Foothills Community Health,2025-08,8.7,38.7,92.7
+H-110,Foothills Community Health,2025-09,8.5,37,89.8
+H-110,Foothills Community Health,2025-10,8.7,37.6,92.3
+H-110,Foothills Community Health,2025-11,8.7,36.5,94
+H-110,Foothills Community Health,2025-12,8.8,35.8,91.2
+H-111,Magnolia Regional Medical Center,2025-01,8.2,40.7,87.4
+H-111,Magnolia Regional Medical Center,2025-02,8.2,39.1,89
+H-111,Magnolia Regional Medical Center,2025-03,8.1,41,91.6
+H-111,Magnolia Regional Medical Center,2025-04,8.2,39.2,90.6
+H-111,Magnolia Regional Medical Center,2025-05,8.2,39.2,91.8
+H-111,Magnolia Regional Medical Center,2025-06,8,41.5,92.3
+H-111,Magnolia Regional Medical Center,2025-07,8.4,41.4,87.8
+H-111,Magnolia Regional Medical Center,2025-08,8.1,40.8,91.9
+H-111,Magnolia Regional Medical Center,2025-09,8.2,40.9,88.6
+H-111,Magnolia Regional Medical Center,2025-10,8.3,41.3,90.5
+H-111,Magnolia Regional Medical Center,2025-11,8.2,40.7,90.1
+H-111,Magnolia Regional Medical Center,2025-12,8.4,40,89.4
+H-112,Pinecrest Valley Hospital,2025-01,8.2,39.4,92.3
+H-112,Pinecrest Valley Hospital,2025-02,8.2,39.2,90.3
+H-112,Pinecrest Valley Hospital,2025-03,8.2,39.5,90.7
+H-112,Pinecrest Valley Hospital,2025-04,8.1,40.5,90.7
+H-112,Pinecrest Valley Hospital,2025-05,8.3,41,92
+H-112,Pinecrest Valley Hospital,2025-06,8.1,40.8,90.7
+H-112,Pinecrest Valley Hospital,2025-07,8.2,39.8,88.1
+H-112,Pinecrest Valley Hospital,2025-08,8.4,41.3,87.7
+H-112,Pinecrest Valley Hospital,2025-09,8.2,40.7,89.7
+H-112,Pinecrest Valley Hospital,2025-10,8.3,41.4,88.9
+H-112,Pinecrest Valley Hospital,2025-11,8.4,41.5,88.8
+H-112,Pinecrest Valley Hospital,2025-12,8.3,40.9,87.6
