@@ -87,13 +87,13 @@ In 2024, all archetypes should look similar so the divergence starting in 2025 i
 `account_id` (H-101...), `hospital_name`, `region`, `state`, `hospital_type`, `licensed_beds`, `service_lines` (pipe separated), `contract_start`, `renewal_date`, `monthly_base_fee`, `included_encounters`, `per_encounter_fee`, `annual_contract_value`, `archetype` (hidden field for validation only; never displayed as a label)
 
 **`account_months.csv`** (one row per account per service line per month)
-`account_id`, `service_line`, `month` (YYYY-MM), `encounters`, `assigned_fte`, `avg_response_min`, `target_response_min` (10), `sla_met_pct`, `satisfaction_score` (1 to 10), `door_to_needle_min` (Tele-Neurology only, otherwise blank), `transfers_avoided`, `revenue`, `direct_cost`
+`account_id`, `service_line`, `month` (YYYY-MM), `encounters`, `included_encounters` (line-level, used for the revenue rule), `assigned_fte`, `avg_response_min`, `target_response_min` (10), `sla_met_pct`, `satisfaction_score` (1 to 10), `door_to_needle_min` (Tele-Neurology only, otherwise blank), `transfers_avoided`, `revenue`, `direct_cost`
 
 **`clinicians.csv`** (one row per clinician)
-`clinician_id`, `specialty`, `home_region`, `fte_status` (0.5, 0.8, 1.0), `hire_date`, `licensed_states` (pipe separated)
+`clinician_id`, `specialty`, `home_region`, `fte_status` (0.25, 0.5, 0.8, 1.0; 0.25 = physicians who contribute about 10 hours a week), `hire_date`, `shift` (Day, Evening, Overnight, for 24/7 coverage checks), `licensed_states` (pipe separated, about 10 per clinician)
 
 **`clinician_months.csv`** (one row per clinician per account per month)
-`clinician_id`, `account_id`, `month`, `fte_allocated`, `encounters`, `utilization_pct`, `attrition_risk_flag`
+`clinician_id`, `account_id`, `month`, `fte_allocated`, `encounters`, `utilization_pct` (the clinician's total for the month, repeated on each row), `attrition_risk_flag`. A clinician with no assignment in a month gets one row with blank `account_id` and 0 FTE.
 
 ### 6.5 Consistency rules (the data must reconcile)
 - For every account, service line and month: `assigned_fte` in `account_months` **equals the sum of** `fte_allocated` in `clinician_months`.
@@ -160,6 +160,16 @@ One page per question. Every page starts with a **headline sentence that states 
 **Page 6. Leading indicators**
 - Three tiles with current status and threshold: response time vs target, volume trend, staffing changes within 12 months of renewal.
 - A note on how many months of warning each indicator gave for the at-risk accounts.
+
+**Page 2a. Hospital performance** (added; sits beside Account risk)
+- Every hospital gets a **performance tier** (Exceptional, As expected, Needs assistance) driven by clinicians assigned versus clinicians needed (encounters / 60) and response time against target. Thresholds in `config/thresholds.json`. Also a **staffing position** (Short, Right-sized, Heavy).
+- Scatter of staffing coverage against response time, ranked table, tier summary cards (response, SLA, satisfaction, margin, cost per FTE).
+- Distinct from risk tier: performance says who to coach now, risk says who might leave.
+
+**Page 5 additions (Capacity and staffing)**
+- Utilization by specialty and region, utilization bands, part-time (0.25 FTE) contributors.
+- Growth and new coverage: a state table (hospitals, unmet need, licensed clinicians, spare time, status Covered, Thin or Open territory) and "next licenses to add" (clinician paired with the state where a license helps most).
+- 24/7 coverage: FTE by shift and home region, overnight flagged thin under 1.5 FTE.
 
 **Page 7. Methodology and industry context**
 - How the synthetic data was built, metric definitions (from section 7), and the public benchmarks from section 11 with source links.
@@ -230,9 +240,13 @@ scripts/generate_data.py
 scripts/build_metrics.py
 scripts/validate.py
 data/                     (generated CSVs)
-site/index.html
+site/index.html           (shell; loads style.css and app.js)
+site/style.css
+site/app.js
 site/data/metrics.json
 site/methodology.html
+private/                  (gitignored; earlier real-company research and workbook data, never published)
+.github/workflows/pages.yml
 ```
 
 ### Build order

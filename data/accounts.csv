@@ -1,0 +1,41 @@
+account_id,hospital_name,region,state,hospital_type,licensed_beds,service_lines,contract_start,renewal_date,monthly_base_fee,included_encounters,per_encounter_fee,annual_contract_value,archetype
+H-101,Elmstead Community Hospital,Northeast,VT,Community,170,Tele-Psychiatry|Tele-Critical Care,2022-07-01,2027-06-30,28600,41,892.87,491000,steady
+H-102,Sorrel Creek Health Center,South,GA,Community,145,Tele-Neurology|Tele-Psychiatry,2023-08-01,2026-04-30,27300,36,953.88,467000,growth
+H-103,Dunmore Glen Regional Medical Center,Midwest,MI,Regional,310,Tele-Neurology|Tele-Psychiatry,2021-10-01,2027-01-31,50400,67,970.35,864000,steady
+H-104,Granite Shoals Community Hospital,West,NM,Critical Access,25,Tele-Neurology,2019-05-01,2026-10-31,6300,9,898.18,108000,steady
+H-105,Raven Ledge Health Center,Northeast,ME,Community,120,Tele-Neurology|Tele-Psychiatry|Tele-Critical Care,2019-09-01,2026-01-31,41800,60,906.35,716000,at_risk
+H-106,Kestrel Valley Regional Hospital,South,NC,Regional,200,Tele-Neurology|Tele-Psychiatry,2022-02-01,2027-10-31,50500,68,961.69,866000,steady
+H-107,Cedar Ridge Health Center,Midwest,OH,Community,65,Tele-Neurology|Tele-Critical Care,2023-07-01,2026-09-30,24000,34,913.45,411000,quiet_churn
+H-108,Juniper Falls General Hospital,West,MT,Community,115,Tele-Neurology|Tele-Psychiatry,2021-07-01,2026-02-28,25600,36,934.28,439000,at_risk
+H-109,Falcon Mesa Health Center,Northeast,NH,Community,65,Tele-Psychiatry|Tele-Critical Care,2020-04-01,2026-05-31,25900,35,944.04,444000,steady
+H-110,Birchwood Terrace Medical Center,South,GA,Community,95,Tele-Neurology|Tele-Psychiatry|Tele-Critical Care,2019-02-01,2027-08-31,30600,45,888.58,524000,steady
+H-111,Indigo Vale Memorial Hospital,Midwest,OH,Critical Access,25,Tele-Critical Care,2020-08-01,2027-04-30,8300,10,1018.49,143000,steady
+H-112,Amber Prairie District Hospital,West,CA,Critical Access,25,Tele-Neurology,2020-08-01,2028-03-31,8500,10,1044.96,146000,steady
+H-113,Wren Hollow Community Hospital,Northeast,MA,Community,75,Tele-Neurology|Tele-Psychiatry,2020-04-01,2027-07-31,30300,40,962.9,520000,steady
+H-114,Northfield Crossing Memorial Hospital,South,TN,Critical Access,25,Tele-Neurology|Tele-Psychiatry,2019-07-01,2028-01-31,16400,23,906.59,281000,steady
+H-115,Alder Glen Health Center,Midwest,WI,Community,70,Tele-Psychiatry|Tele-Critical Care,2023-03-01,2027-11-30,23800,34,885.66,407000,growth
+H-116,Foxglove Run Medical Center,West,CO,Community,140,Tele-Neurology|Tele-Psychiatry|Tele-Critical Care,2019-08-01,2028-11-30,46100,58,1040.93,791000,steady
+H-117,Ironwood Bluff Community Hospital,Northeast,MA,Community,120,Tele-Neurology|Tele-Critical Care,2021-12-01,2026-07-31,24900,34,950.3,428000,steady
+H-118,Mill Pond Community Hospital,South,GA,Community,75,Tele-Neurology|Tele-Psychiatry,2023-04-01,2028-12-31,29400,40,934.54,505000,steady
+H-119,Copperfield General Hospital,Midwest,NE,Community,90,Tele-Neurology|Tele-Psychiatry,2019-02-01,2028-07-31,23900,31,974.17,409000,steady
+H-120,Heron Landing Health Center,West,NM,Community,170,Tele-Neurology|Tele-Critical Care,2023-10-01,2027-03-31,26300,35,981.68,452000,growth
+H-121,Quarry Run Health Center,Northeast,MA,Community,85,Tele-Neurology|Tele-Psychiatry,2019-09-01,2026-10-31,29200,42,894.8,501000,steady
+H-122,Marlow Springs Memorial Hospital,South,NC,Critical Access,25,Tele-Neurology|Tele-Psychiatry,2023-03-01,2027-07-31,13000,16,1014.04,223000,growth
+H-123,Tamarack Flats District Hospital,Midwest,MO,Critical Access,25,Tele-Psychiatry|Tele-Critical Care,2019-06-01,2028-05-31,13900,18,995.35,239000,steady
+H-124,Jasper Fork Community Hospital,West,NM,Community,135,Tele-Neurology|Tele-Psychiatry,2023-09-01,2027-08-31,26700,39,879.06,457000,growth
+H-125,Fairmont Hollow Regional Hospital,Northeast,ME,Regional,280,Tele-Neurology|Tele-Psychiatry,2022-11-01,2028-06-30,38700,50,991.4,664000,steady
+H-126,Willow Creek Memorial Hospital,South,TN,Critical Access,25,Tele-Psychiatry,2019-07-01,2028-11-30,8800,11,1007.98,151000,steady
+H-127,Pine Barrens East Community Hospital,Midwest,MN,Critical Access,25,Tele-Neurology|Tele-Psychiatry,2021-08-01,2026-03-31,12100,16,984.95,207000,steady
+H-128,Briar Hill General Hospital,West,CA,Community,125,Tele-Neurology|Tele-Psychiatry|Tele-Critical Care,2021-10-01,2026-03-31,41800,55,980.84,716000,at_risk
+H-129,Stonebrook Regional Hospital,Northeast,MA,Regional,360,Tele-Neurology|Tele-Psychiatry,2019-01-01,2026-02-28,35000,54,845.74,600000,at_risk
+H-130,Harlow Bend Medical Center,South,KY,Community,65,Tele-Neurology|Tele-Critical Care,2022-06-01,2026-07-31,32500,40,1050.38,557000,quiet_churn
+H-131,Sable Point Community Hospital,Midwest,IA,Critical Access,25,Tele-Critical Care,2020-09-01,2027-11-30,4700,7,899.51,81000,steady
+H-132,Ashgrove Medical Center,West,AZ,Community,75,Tele-Neurology|Tele-Psychiatry|Tele-Critical Care,2023-07-01,2027-05-31,36100,54,860.13,619000,steady
+H-133,Thistle Down Community Hospital,Northeast,PA,Critical Access,25,Tele-Neurology,2023-11-01,2027-01-31,5100,7,977.62,88000,growth
+H-134,Oak Meadow Community Hospital,South,GA,Community,110,Tele-Neurology|Tele-Psychiatry,2023-01-01,2026-08-31,29600,40,976.12,508000,quiet_churn
+H-135,Evergreen Hollow Regional Medical Center,Midwest,IA,Regional,250,Tele-Neurology|Tele-Psychiatry,2022-07-01,2027-02-28,44700,59,981.68,766000,steady
+H-136,Cobalt Ridge Regional Medical Center,West,MT,Regional,260,Tele-Neurology|Tele-Psychiatry,2021-11-01,2026-11-30,45600,66,888.87,782000,at_risk
+H-137,Hawthorn Bay Medical Center,Northeast,VT,Community,110,Tele-Neurology|Tele-Psychiatry,2020-07-01,2027-02-28,22000,32,878.83,378000,steady
+H-138,Pelican Bend Regional Hospital,South,KY,Regional,330,Tele-Neurology|Tele-Psychiatry|Tele-Critical Care,2020-11-01,2026-12-31,73800,97,980.33,1265000,at_risk
+H-139,Gilded Pass District Hospital,Midwest,KS,Critical Access,25,Tele-Neurology,2023-12-01,2026-07-31,6300,9,897.24,108000,growth
+H-140,Larch Haven Community Hospital,West,NM,Community,60,Tele-Psychiatry|Tele-Critical Care,2023-07-01,2027-05-31,28500,38,976.72,488000,growth

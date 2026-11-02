@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology and Context · Larkspur</title>
+<meta name="description" content="How the synthetic data was built, how every metric is defined, and public industry benchmarks.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand"><h1>Larkspur TeleSpecialty</h1><small>Methodology and industry context</small></div>
+  <nav aria-label="Pages"><a href="index.html#overview">← Back to dashboard</a><a href="methodology.html" aria-current="page">Methodology</a></nav>
+</div></header>
+<main class="wrap">
+<h2 class="headline">How this dashboard was built, and what the numbers mean</h2>
+<p class="sub">Everything here is synthetic. Larkspur TeleSpecialty and every hospital in it are fictional. No real company, hospital, patient or clinician data was used.</p>
+
+<div class="card"><h3>How the synthetic data was built</h3>
+<p>A Python script (<code>scripts/generate_data.py</code>, fixed seed 42) creates 24 months of data, January 2024 to December 2025, for 40 hospital accounts and 70 clinicians. "Today" is January 2026. Rerunning the script gives identical files.</p>
+<ul>
+<li><b>Contracts.</b> Each hospital pays a monthly base fee that includes a set number of encounters, plus a fee per encounter above that.</li>
+<li><b>Cost.</b> The main cost is clinician time, about $30,000 to $34,000 per FTE per month. Gaps covered by temporary clinicians cost 1.4 times as much.</li>
+<li><b>Four account groups.</b> Through 2024 all accounts look alike. From February 2025, clinicians are moved from six large, mature accounts to staff eight fast-growing ones. At the six, response time slips past 10 minutes within one to two months, satisfaction falls a month later, and volume and margin follow. Three more accounts lose volume quietly while service stays healthy. The other 23 stay steady.</li>
+<li><b>Workforce.</b> Clinicians work full time or part time (1.0, 0.8, 0.5 or 0.25 FTE; the 0.25 group is physicians who work about 10 hours a week alongside another job). Each holds licenses in about 10 states, and can only be assigned to hospitals in states where they are licensed. Each has a primary shift (day, evening or overnight) so 24/7 coverage can be checked.</li>
+<li><b>Checks.</b> <code>scripts/validate.py</code> confirms that assigned FTE reconciles to clinician allocations, nobody exceeds their FTE or works outside their licensed states, revenue matches to the cent, and no real company or hospital names appear.</li></ul></div>
+
+<div class="card" id="metrics"><h3>Metric definitions</h3>
+<div style="overflow-x:auto"><table><thead><tr><th>Metric</th><th>How it is calculated</th></tr></thead><tbody>
+<tr><td>Contribution margin</td><td>Revenue minus direct clinician cost, before overhead.</td></tr>
+<tr><td>Contribution margin %</td><td>Total margin dollars divided by total revenue for the period or group. Monthly percentages are never averaged.</td></tr>
+<tr><td>Encounters per FTE</td><td>Total encounters divided by total assigned clinician FTE. About 55 to 65 is healthy; response time breaks above about 70.</td></tr>
+<tr><td>Cost per FTE</td><td>Direct cost divided by assigned FTE. It rises when gaps are covered by premium-rate backfill.</td></tr>
+<tr><td>Staffed % of need</td><td>Assigned FTE divided by the FTE the volume needs (encounters ÷ 60).</td></tr>
+<tr><td>Response vs target</td><td>Average response minutes minus the 10-minute contract target. Positive means late.</td></tr>
+<tr><td>Volume trend</td><td>Encounters divided by the average of the prior three months, minus 1.</td></tr>
+<tr><td>Gross revenue retention</td><td>Revenue from accounts active a year ago, 2025 versus 2024, counting no growth.</td></tr>
+<tr><td>Contract value at risk</td><td>Annual contract value of accounts in the High risk tier.</td></tr>
+<tr><td>Utilization</td><td>Clinician time assigned to hospitals as a share of their FTE status.</td></tr></tbody></table></div></div>
+
+<div class="card" id="tiers"><h3>How hospitals are tiered</h3>
+<p><b>Performance tier</b> (what to coach), using the latest three months. It rests on two things: clinicians assigned and response time.</p>
+<ul><li><b>Needs assistance:</b> response over target in 2 or more of the last 3 months, or average response above target, or clinicians assigned below 90% of need, or under 85% of encounters within the response standard.</li>
+<li><b>Exceptional:</b> not needing assistance, and in addition zero months over target in the last six, average response 8.5 minutes or less, 93% or more of encounters within standard, satisfaction 8.2 or more, and staffed at 95% or more of need.</li>
+<li><b>As expected:</b> everything else.</li></ul>
+<p><b>Staffing position:</b> Short below 95% of need, Heavy above 115% (extra clinicians the volume does not require), otherwise Right-sized.</p>
+<p><b>Risk tier</b> (what might leave), counts four flags: response over target in 2 of the last 3 months; latest 3-month volume 10% or more below the prior 3; latest satisfaction below 7.5; latest quarter margin 5 or more points below the same quarter a year earlier. Three or four flags is High, one or two is Watch, none is Healthy.</p>
+<p class="note">All thresholds live in <code>config/thresholds.json</code> and can be changed in one place.</p></div>
+
+<div class="card" id="benchmarks"><h3>Industry context: public benchmarks</h3>
+<p class="note">Public data, shown for context only. These are not company metrics and are never blended into the synthetic figures.</p>
+<div style="overflow-x:auto"><table><thead><tr><th>Benchmark</th><th>Value</th><th>Source</th></tr></thead><tbody>
+<tr><td>U.S. hospitals</td><td>About 6,100 total, about 1,800 rural community hospitals</td><td><a href="https://www.aha.org/statistics/fast-facts-us-hospitals">AHA Fast Facts, 2026</a> (not re-checked before publishing)</td></tr>
+<tr><td>Rural hospitals operating at a loss</td><td>41.2%</td><td><a href="https://www.chartis.com/insights/2026-rural-health-state-state">Chartis, Feb 10, 2026</a></td></tr>
+<tr><td>Rural hospitals vulnerable to closure</td><td>417</td><td>Same Chartis report</td></tr>
+<tr><td>Rural hospitals closed or converted since 2010</td><td>206 (includes conversions that dropped inpatient care)</td><td>Same Chartis report</td></tr>
+<tr><td>Median helicopter air ambulance charge</td><td>About $36,000 (2017 data)</td><td><a href="https://www.gao.gov/blog/2019/04/02/the-high-cost-of-a-medical-flight">GAO</a></td></tr>
+<tr><td>Average cost of a U.S. hospital stay</td><td>About $16,700 (2022). Hospital costs, not payments.</td><td><a href="https://hcup-us.ahrq.gov/reports/statbriefs/sb316-most-expensive-conditions-by-payer-2022.pdf">AHRQ HCUP Statistical Brief #316</a>: $548.5B across 32.9M stays</td></tr>
+<tr><td>Average cost of an ischemic stroke stay</td><td>About $20,200 (2022)</td><td>Same brief: $10.9B across 542K stays</td></tr>
+<tr><td>Average cost of a sepsis stay</td><td>About $24,800 (2022)</td><td>Same brief: $60.0B across 2.42M stays</td></tr>
+<tr><td>Stroke treatment speed goal</td><td>Door-to-needle within 60 minutes for 85% or more of eligible patients</td><td><a href="https://www.heart.org/en/professional/quality-improvement/target-stroke/introducing-target-stroke-phase-iii">American Heart Association, Target: Stroke Phase III</a></td></tr>
+<tr><td>Projected U.S. physician shortage</td><td>13,500 to 86,000 by 2036</td><td><a href="https://www.aamc.org/media/75231/download">AAMC, March 2024</a></td></tr>
+<tr><td>Mental health shortage areas</td><td>6,807 designations covering 137M people, about 27% of need met (Dec 31, 2025)</td><td><a href="https://www.kff.org/other-health/state-indicator/mental-health-care-health-professional-shortage-areas-hpsas/">KFF</a></td></tr>
+<tr><td>Medicare telehealth flexibilities</td><td>Extended through December 31, 2027 (enacted Feb 3, 2026)</td><td><a href="https://www.americanbar.org/groups/health_law/news/2026/medicare-telehealth-flexibilities-extended-2027/">American Bar Association</a></td></tr></tbody></table></div></div>
+
+<div class="card"><h3>Glossary</h3>
+<div style="overflow-x:auto"><table><tbody>
+<tr><td><b>Acute care telemedicine</b></td><td>Remote specialists treating hospitalized or ER patients through video.</td></tr>
+<tr><td><b>Encounter</b></td><td>One remote consult with one patient.</td></tr>
+<tr><td><b>FTE</b></td><td>Full-time equivalent. 1.0 is one full-time clinician; 0.5 is half time.</td></tr>
+<tr><td><b>Density</b></td><td>Encounters handled per clinician FTE. Higher density means better margin, until response time breaks.</td></tr>
+<tr><td><b>Response time / SLA</b></td><td>Minutes from a hospital's request to the specialist joining, and the contracted standard for it.</td></tr>
+<tr><td><b>Door-to-needle</b></td><td>Minutes from a stroke patient's arrival to clot-dissolving medication.</td></tr>
+<tr><td><b>Transfer</b></td><td>Moving a patient to another hospital. Avoided transfers keep revenue local.</td></tr>
+<tr><td><b>Call pay</b></td><td>What hospitals pay local specialists to be on call. Telemedicine can replace it.</td></tr>
+<tr><td><b>Credentialing by proxy</b></td><td>A hospital relying on the telemedicine company's review of a clinician instead of its own full review.</td></tr>
+<tr><td><b>Critical Access Hospital</b></td><td>A small rural hospital (25 beds or fewer) with special Medicare status.</td></tr>
+<tr><td><b>Renewal</b></td><td>When a hospital decides whether to extend its contract.</td></tr>
+<tr><td><b>Backfill</b></td><td>Covering a staffing gap with temporary or premium-rate clinicians.</td></tr></tbody></table></div></div>
+</main>
+<footer><div class="wrap">Synthetic data for a fictional company. Built by Paul Mayfield to demonstrate executive analytics. <a href="methodology.html">Methodology and definitions</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "today": "2026-01",
+  "target_response_min": 10,
+  "healthy_encounters_per_fte": 60,
+  "risk": {
+    "service_months_over_target": 2,
+    "service_window_months": 3,
+    "volume_drop_pct": -0.10,
+    "satisfaction_below": 7.5,
+    "margin_drop_pts": -5,
+    "high_score": 3,
+    "watch_score": 1
+  },
+  "performance": {
+    "needs_assistance": {"months_over_target_last3": 2, "min_coverage": 0.90, "min_sla_pct": 85},
+    "exceptional": {"max_avg_response_min": 8.5, "min_sla_pct": 93, "min_satisfaction": 8.2, "min_coverage": 0.95, "zero_months_over_target_last6": true}
+  },
+  "staffing_position": {"short_below": 0.95, "heavy_above": 1.15},
+  "capacity": {"spare_util_below_pct": 70, "attrition_util_low": 60, "attrition_util_high": 92, "thin_state_min_clinicians": 4}
+}

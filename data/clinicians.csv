@@ -1,41 +1,71 @@
-clinician_id,region,specialty,fte_status,avg_encounters_per_month,utilization_pct,attrition_risk_90d
-CL-1001,Midwest,Critical Care,1.0 FTE,67,68.3,No
-CL-1002,Northeast,Neurology,0.5 FTE,71,90.8,No
-CL-1003,South,Neurology,0.8 FTE,133,74.9,No
-CL-1004,West,Critical Care,0.5 FTE,79,68.8,No
-CL-1005,Midwest,Hospitalist Medicine,0.5 FTE,70,74.4,No
-CL-1006,West,Critical Care,0.8 FTE,127,56.7,Yes
-CL-1007,West,Hospitalist Medicine,0.8 FTE,112,70.6,No
-CL-1008,Northeast,Neurology,0.5 FTE,142,84.2,No
-CL-1009,Northeast,Neurology,0.5 FTE,146,57.8,Yes
-CL-1010,South,Psychiatry,0.8 FTE,70,67.2,No
-CL-1011,West,Hospitalist Medicine,0.5 FTE,149,94.4,Yes
-CL-1012,South,Neurology,0.8 FTE,131,60.5,No
-CL-1013,South,Hospitalist Medicine,1.0 FTE,145,82.7,No
-CL-1014,Midwest,Critical Care,0.5 FTE,106,82.8,No
-CL-1015,Midwest,Psychiatry,1.0 FTE,103,70.6,No
-CL-1016,South,Psychiatry,1.0 FTE,69,63.3,No
-CL-1017,Northeast,Neurology,0.5 FTE,158,91.3,No
-CL-1018,Midwest,Psychiatry,0.5 FTE,108,83.5,No
-CL-1019,West,Psychiatry,0.5 FTE,116,62,No
-CL-1020,Midwest,Psychiatry,0.8 FTE,138,72.7,No
-CL-1021,Northeast,Critical Care,1.0 FTE,128,87.4,No
-CL-1022,West,Critical Care,1.0 FTE,107,68.3,No
-CL-1023,South,Hospitalist Medicine,0.8 FTE,124,74.9,No
-CL-1024,South,Psychiatry,0.5 FTE,77,96.5,Yes
-CL-1025,Northeast,Critical Care,0.8 FTE,130,57.2,Yes
-CL-1026,Midwest,Neurology,0.8 FTE,70,85.6,No
-CL-1027,West,Psychiatry,0.8 FTE,71,66.7,No
-CL-1028,West,Hospitalist Medicine,1.0 FTE,113,90.1,No
-CL-1029,Midwest,Hospitalist Medicine,1.0 FTE,109,72,No
-CL-1030,Midwest,Neurology,0.8 FTE,72,71.1,No
-CL-1031,Northeast,Psychiatry,1.0 FTE,96,89,No
-CL-1032,South,Psychiatry,0.5 FTE,120,84.9,No
-CL-1033,South,Neurology,1.0 FTE,92,81.5,No
-CL-1034,West,Critical Care,1.0 FTE,159,90.9,No
-CL-1035,Northeast,Neurology,1.0 FTE,90,65.2,No
-CL-1036,South,Critical Care,1.0 FTE,74,82.5,No
-CL-1037,South,Neurology,0.5 FTE,125,80.7,No
-CL-1038,West,Hospitalist Medicine,0.8 FTE,60,85.9,No
-CL-1039,Northeast,Critical Care,1.0 FTE,145,65.3,No
-CL-1040,Midwest,Hospitalist Medicine,1.0 FTE,127,77.5,No
+clinician_id,specialty,home_region,fte_status,hire_date,shift,licensed_states
+CL-1001,Neurology,West,0.8,2020-06-09,Evening,CA|CO|IN|ME|MT|NE|NH|NM|OR
+CL-1002,Neurology,Midwest,0.5,2017-04-14,Day,CA|CT|IA|IL|IN|KS|MN|MO|NE|NM|OH|TN
+CL-1003,Neurology,Midwest,1.0,2022-07-01,Evening,AL|IA|IN|KS|ME|MI|NC|OH|OR|VT
+CL-1004,Neurology,South,0.8,2019-03-24,Overnight,FL|MN|NC|NH|OR|SC|TN|TX
+CL-1005,Neurology,Northeast,0.8,2022-05-12,Evening,CT|MN|MO|NH|NJ|NY|VT|WA
+CL-1006,Neurology,Northeast,1.0,2021-06-23,Evening,AZ|GA|ID|MA|ME|MT|NY|PA|VT
+CL-1007,Neurology,Northeast,0.8,2016-09-15,Day,CT|FL|GA|MA|NH|NJ|NM|NY|OH|OR|PA|VT|WA
+CL-1008,Neurology,West,0.25,2016-01-17,Day,LA|ME|MT|NE|NM|NV|OH|OR|UT|VT
+CL-1009,Neurology,West,0.8,2021-07-03,Day,AZ|CA|FL|ID|IL|MT|OH|OR|PA|UT
+CL-1010,Neurology,South,0.25,2020-09-07,Overnight,AL|GA|LA|MN|MO|NC|NE|NH|NJ|TX|UT|VA
+CL-1011,Neurology,West,1.0,2022-02-08,Evening,AL|AZ|CO|ID|MO|MT|NM|UT|VA
+CL-1012,Neurology,Northeast,0.5,2017-12-22,Day,AL|AZ|CT|LA|MA|ME|MN|MT|NC|NJ|PA|VT
+CL-1013,Neurology,South,0.8,2023-09-10,Day,AL|CT|IA|KY|LA|MN|NM|SC|TN|TX|UT|VA
+CL-1014,Neurology,Midwest,0.5,2024-03-17,Overnight,IA|ID|MA|MI|MN|NY|OH|PA|WI
+CL-1015,Neurology,Northeast,1.0,2016-06-28,Evening,ID|MA|ME|MI|NH|NJ|NV|NY|VA|WI
+CL-1016,Neurology,South,0.8,2020-03-26,Evening,AZ|FL|GA|ID|KY|LA|NC|NM|OR|TN|TX
+CL-1017,Neurology,Northeast,0.5,2019-03-12,Overnight,CA|IL|IN|ME|MO|NH|NY|PA|VT
+CL-1018,Neurology,Northeast,1.0,2019-12-12,Evening,MO|MT|NC|NH|NJ|NY|PA|WA
+CL-1019,Neurology,Northeast,0.8,2022-09-25,Evening,AZ|CT|IL|MA|ME|NE|NJ|NY|PA|VT|WA
+CL-1020,Neurology,Northeast,0.8,2017-08-08,Day,AL|CT|MA|MO|NE|NJ|NM|NY|PA|TX|UT|VT
+CL-1021,Neurology,Midwest,0.8,2017-10-28,Day,CA|IA|ID|IL|IN|KS|MA|MI|MN|MO|NE|NY|VA|WA
+CL-1022,Neurology,Northeast,0.25,2022-02-15,Overnight,CT|FL|GA|ME|MI|NJ|NM|NY|PA|VA|VT
+CL-1023,Neurology,Northeast,0.5,2017-07-28,Evening,CT|ID|KY|MA|MT|NH|NJ|PA|UT
+CL-1024,Neurology,Northeast,0.8,2017-08-24,Day,CT|ID|MA|NE|NJ|NM|NV|NY|PA
+CL-1025,Neurology,South,0.25,2024-08-04,Evening,AL|FL|GA|KS|NC|NJ|NY|OR|SC|TN|TX|VA|VT
+CL-1026,Neurology,Northeast,1.0,2019-11-14,Day,CO|CT|KS|MA|MO|MT|NC|NH|NJ|NM|NY|VT
+CL-1027,Neurology,West,0.8,2020-02-11,Overnight,AZ|CA|ID|LA|MA|MO|MT|NH|NM|OH|OR
+CL-1028,Neurology,South,1.0,2017-09-21,Day,IA|ID|KY|LA|NC|SC|TN
+CL-1029,Neurology,Midwest,0.25,2018-11-14,Overnight,FL|IL|IN|KS|LA|MN|MO|NE|NV|UT|VA|WI
+CL-1030,Neurology,Northeast,1.0,2019-05-02,Evening,GA|IA|MA|ME|MI|MT|NH|NJ|NY|PA|VT
+CL-1031,Psychiatry,South,1.0,2022-04-22,Day,AL|CO|ID|IL|KY|MT|NC|NY|SC|TX|VA
+CL-1032,Psychiatry,West,0.8,2020-11-02,Day,AZ|CO|IA|ID|MT|NM|UT|WA|WI
+CL-1033,Psychiatry,South,0.8,2017-01-27,Overnight,AZ|GA|IL|KY|LA|NH|NM|TX|VA|WI
+CL-1034,Psychiatry,South,0.8,2018-08-05,Day,AL|FL|GA|IA|NM|OH|TN|TX
+CL-1035,Psychiatry,West,0.5,2023-07-24,Day,AZ|CA|FL|ID|LA|MO|MT|NM|NV|OR|TX|WA|WI
+CL-1036,Psychiatry,Midwest,1.0,2024-04-06,Overnight,AZ|IA|KS|LA|MI|MO|NJ|OH|OR|WI
+CL-1037,Psychiatry,South,1.0,2025-06-09,Day,AZ|CA|GA|LA|NC|TN|TX
+CL-1038,Psychiatry,West,1.0,2022-03-20,Day,AZ|CA|CO|GA|ID|MO|MT|NM|SC|UT
+CL-1039,Psychiatry,Midwest,1.0,2017-01-02,Day,ID|IN|KS|MN|MO|NH|OH|PA|VA
+CL-1040,Psychiatry,West,1.0,2017-07-27,Overnight,AZ|CA|ID|MA|ME|MT|NH|NV|OH|OR|VA|WA
+CL-1041,Psychiatry,Midwest,1.0,2019-03-20,Day,AZ|CO|GA|IA|ID|IL|IN|MO|NE
+CL-1042,Psychiatry,West,1.0,2022-03-04,Day,AZ|CO|CT|IN|KS|MT|NC|NM|OR|SC
+CL-1043,Psychiatry,West,1.0,2018-03-10,Day,AL|AZ|CO|GA|ID|KY|MN|NV|OR|UT|WA
+CL-1044,Psychiatry,Midwest,1.0,2024-04-14,Day,IL|IN|KY|MO|MT|NE|SC|TN|WI
+CL-1045,Psychiatry,Northeast,1.0,2022-04-03,Day,CT|IA|IL|IN|ME|NC|NH|NY|PA|VT
+CL-1046,Psychiatry,Northeast,1.0,2021-03-18,Day,CT|IN|MA|ME|MI|NJ|NY|VT
+CL-1047,Psychiatry,Midwest,1.0,2016-02-06,Day,AZ|IA|IN|MI|MN|MO|NC|NM|NV
+CL-1048,Psychiatry,West,1.0,2020-11-14,Day,AL|AZ|CA|CO|ID|KS|MO|MT|UT|VT|WA
+CL-1049,Psychiatry,Northeast,1.0,2021-04-03,Overnight,AZ|CA|CT|KS|ME|NE|NY|PA|VA
+CL-1050,Psychiatry,Northeast,1.0,2023-02-23,Day,CA|CT|IN|KS|MA|ME|NH|NJ|OR|UT|VT
+CL-1051,Critical Care,West,0.25,2024-05-05,Day,CA|IN|ME|MN|MT|NM|NV|OR|SC|TN|WA|WI
+CL-1052,Critical Care,Northeast,0.25,2019-03-14,Overnight,AZ|CO|CT|MA|MO|NJ|NM|PA|SC|VT
+CL-1053,Critical Care,South,0.8,2020-01-25,Overnight,AL|CT|FL|GA|KS|KY|LA|MA|NC|NJ|NV|OH|TN
+CL-1054,Critical Care,Midwest,0.25,2021-07-06,Evening,AL|CT|ID|IN|KS|MN|MO|OH|TX|VT|WI
+CL-1055,Critical Care,Midwest,0.25,2025-11-03,Day,AL|IA|ID|MI|MN|NE|NM|VA|WI
+CL-1056,Critical Care,Midwest,0.8,2021-09-03,Day,AZ|IA|IN|ME|MO|NE|OH|SC|TN|WA
+CL-1057,Critical Care,West,0.25,2024-06-10,Day,AZ|CA|CO|CT|ID|NY|OR|PA|WI
+CL-1058,Critical Care,South,0.8,2018-09-03,Day,FL|GA|LA|MA|NC|NE|NV|OH|TN|TX
+CL-1059,Critical Care,Northeast,0.25,2022-09-22,Day,AZ|CO|CT|KY|ME|NJ|PA|TN|UT|VT
+CL-1060,Critical Care,South,0.8,2025-03-26,Evening,AL|FL|IA|LA|NM|VA|WA
+CL-1061,Critical Care,Northeast,0.5,2020-05-16,Day,IA|ID|IL|LA|MA|ME|NH|NJ|NY|OR|PA|TN|VT|WA
+CL-1062,Critical Care,Midwest,1.0,2023-03-19,Overnight,CA|IN|MI|MO|NE|NH|PA|TX|WI
+CL-1063,Critical Care,South,0.25,2020-12-16,Day,GA|KS|KY|LA|NJ|NV|NY|SC|TN|VA
+CL-1064,Critical Care,South,1.0,2023-11-18,Day,AL|CT|KY|MI|MT|NC|NM|PA|TN|TX|VA|WI
+CL-1065,Critical Care,West,0.25,2024-12-14,Overnight,AZ|CO|ME|MN|MT|NV|NY|UT|VA|WA
+CL-1066,Critical Care,South,0.25,2017-03-09,Overnight,GA|ID|KY|LA|NH|OH|TX
+CL-1067,Critical Care,South,0.8,2021-04-10,Day,AL|CT|GA|IA|IN|NC|SC|TX|UT|VA
+CL-1068,Critical Care,Northeast,0.25,2024-10-25,Evening,CA|CT|MA|ME|MN|MT|NH|NY|UT|VT|WI
+CL-1069,Critical Care,Northeast,0.8,2016-01-22,Day,CT|FL|KY|MA|ME|MO|NH|NJ|NY|PA|TN
+CL-1070,Critical Care,Midwest,0.25,2025-07-25,Day,AZ|GA|IL|IN|KS|KY|MA|MI|MN|MO|NE|OR|TN
