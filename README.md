@@ -13,6 +13,9 @@ A mobile-friendly executive dashboard that turns operating data into decisions a
 5. **Is clinician capacity in the right place?** Utilization, where to move capacity first, which state licenses would unlock growth, and 24/7 shift coverage.
 6. **What would have warned us earlier?** Staffing cuts and slow response, months before margin moved.
 
+## Design
+Informed by Tableau's dashboard best practices (answer first, key view upper-left, two or three views per page, big-number tiles, color to spotlight, annotations, cross-highlighting). Details on the methodology page.
+
 ## Run it
 ```bash
 python3 scripts/generate_data.py   # writes data/*.csv (fixed seed, identical every run)

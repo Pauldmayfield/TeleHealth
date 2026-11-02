@@ -192,6 +192,15 @@ One page per question. Every page starts with a **headline sentence that states 
 - **Accessibility:** sufficient contrast, keyboard navigation, chart data available as a table.
 - **Restraint:** no 3D charts, no gauges, no more than 5 colors on one chart, no decorative graphics.
 
+**Tableau-informed practices** (added after reviewing Tableau's dashboard best-practices guidance; the Tableau Public gallery pages could not be read, so no viz was studied)
+- Each page opens with the question it answers, then a generated one-sentence answer.
+- The most important view sits upper-left, with big-number tiles (value, delta, sparkline) above it.
+- Two or three views per page. Page 5 is split into **Capacity** and **Licensing & 24/7**. The margin bridge is now a zero-based bar chart of the change by group, with a Net bar, on the Portfolio page.
+- Highlight actions: a group selector spotlights a group across charts; hovering a hospital highlights it in both the scatter and the ranked list.
+- Color spotlights: grey by default, red only for what needs attention. Shapes and labels back up color.
+- Bars start at zero. Direct labels replace legends. Key moments are annotated on the charts. Filters are labeled single-select buttons.
+- Fonts: IBM Plex Sans (body) and IBM Plex Sans Condensed (big numbers), loaded from Google Fonts with system fallbacks.
+
 ## 10. Glossary (for labels and tooltips)
 
 | Term | Plain meaning |

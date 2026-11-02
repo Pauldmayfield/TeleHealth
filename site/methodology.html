@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Methodology and Context · Larkspur</title>
 <meta name="description" content="How the synthetic data was built, how every metric is defined, and public industry benchmarks.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -65,6 +67,19 @@
 <tr><td>Projected U.S. physician shortage</td><td>13,500 to 86,000 by 2036</td><td><a href="https://www.aamc.org/media/75231/download">AAMC, March 2024</a></td></tr>
 <tr><td>Mental health shortage areas</td><td>6,807 designations covering 137M people, about 27% of need met (Dec 31, 2025)</td><td><a href="https://www.kff.org/other-health/state-indicator/mental-health-care-health-professional-shortage-areas-hpsas/">KFF</a></td></tr>
 <tr><td>Medicare telehealth flexibilities</td><td>Extended through December 31, 2027 (enacted Feb 3, 2026)</td><td><a href="https://www.americanbar.org/groups/health_law/news/2026/medicare-telehealth-flexibilities-extended-2027/">American Bar Association</a></td></tr></tbody></table></div></div>
+
+<div class="card" id="design"><h3>Design choices</h3>
+<p class="note">Dashboard design practice drawn from Tableau's own guidance and from Tableau Public community writing. The Tableau Public gallery pages themselves could not be read (they only render in a browser), so no individual viz was studied or copied.</p>
+<ul>
+<li><b>Start with the message and the audience.</b> Each page opens with the question it answers and a one-sentence answer generated from the data, so the point lands in about five seconds.</li>
+<li><b>Most important view upper-left.</b> Viewers scan from the top left, so the biggest chart sits there with big-number tiles above it.</li>
+<li><b>Two or three views per page.</b> Where a page held more, it was split: Capacity and Licensing &amp; 24/7 are separate pages.</li>
+<li><b>Highlight, don't hunt.</b> Selecting a group on the Portfolio page spotlights it in both charts. Hovering a hospital on Hospital performance lights it in the scatter and the ranked list.</li>
+<li><b>Color spotlights; it does not decorate.</b> Grey is the default and red marks what needs attention (for example the worst response band, or response above target). Shapes and labels back up color.</li>
+<li><b>Honest axes.</b> Bars start at zero. Direct labels replace legends where lines end.</li>
+<li><b>Annotate the moment.</b> Charts mark when clinicians moved, when response broke the target, and when satisfaction fell.</li>
+<li><b>Controls say what they do.</b> Filters are labeled, single-select buttons with the current choice shown.</li></ul>
+<p class="note" style="margin-top:8px">Sources: <a href="https://help.tableau.com/current/pro/desktop/en-us/dashboards_best_practices.htm">Tableau, Best Practices for Effective Dashboards</a>; <a href="https://senturus.com/blog/tableau-dashboard-design-10-best-practices/">Senturus, Tableau Dashboard Design: 10 Best Practices</a>. Tableau's Iron Viz coverage says entries are judged on design, analysis and storytelling.</p></div>
 
 <div class="card"><h3>Glossary</h3>
 <div style="overflow-x:auto"><table><tbody>
