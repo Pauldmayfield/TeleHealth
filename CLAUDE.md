@@ -170,6 +170,13 @@ One page per question. Every page starts with a **headline sentence that states 
 - Utilization by specialty and region, utilization bands, part-time (0.25 FTE) contributors.
 - Growth and new coverage: a state table (hospitals, unmet need, licensed clinicians, spare time, status Covered, Thin or Open territory) and "next licenses to add" (clinician paired with the state where a license helps most).
 - 24/7 coverage: FTE by shift and home region, overnight flagged thin under 1.5 FTE.
+- "Where to move capacity first" lists every hospital short of clinicians, ranked High risk first, then soonest renewal, then biggest gap, and shows the surplus FTE held by Heavy hospitals as a redeployment source.
+
+**Additions from the case-reasoning review** (ideas only; no real names or figures)
+- Margin drivers: an indexed chart of the at-risk group's clinicians, direct cost and cost per clinician FTE, which is the evidence for the backfill story in section 5.
+- Account drilldown: stroke door-to-needle (hospitals with Tele-Neurology) with the AHA 60-minute goal as labeled public context. It is hospital-wide, so it is described as associated with response time, not caused by it.
+- Leading indicators: every tile lists hospitals soonest renewal first with months to renewal, plus a fourth **quiet churn** tile (last quarter's volume 10% or more below the same quarter a year earlier while response is on target). It does not change the risk tier. The 3-month volume flag cannot see slow erosion.
+- Methodology defines annual contract value as the 2024 run rate; revenue moves with volume because of per-encounter fees.
 
 **Page 7. Methodology and industry context**
 - How the synthetic data was built, metric definitions (from section 7), and the public benchmarks from section 11 with source links.
@@ -269,6 +276,8 @@ private/                  (gitignored; earlier real-company research and workboo
 7. The risk tiering puts at least 4 of the 6 at-risk accounts in High and at least 2 of the 3 quiet churn accounts in Watch or High.
 8. No real company or hospital names appear anywhere in `data/` or `site/` (check against a deny list in `config/deny_list.txt`).
 9. Every page shows the synthetic data footer.
+
+`validate.py` also runs four extra checks: A (all three performance tiers populated), B (about 10 state licenses per clinician), C (quiet churn tile catches at least 2 of 3 quiet-churn accounts), D (every high-risk, short-staffed hospital appears in capacity moves).
 
 ## 14. How Claude Code should work on this project
 

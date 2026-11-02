@@ -97,6 +97,10 @@ def main():
     ns = clin.licensed_states.str.count(r"\|") + 1
     check("B. Clinicians hold about 10 state licenses on average", 8 <= ns.mean() <= 13, f"mean {ns.mean():.1f}, range {ns.min()}-{ns.max()}")
 
+    q = m["leading"]["tiles"]["quiet"]["names"]; qc_ids = set(acc[acc.archetype == "quiet_churn"].account_id)
+    check("C. Quiet-churn tile catches at least 2 of the 3 quiet-churn accounts", len({n["id"] for n in q} & qc_ids) >= 2, f"{len({n['id'] for n in q} & qc_ids)}/3")
+    need = {x["id"] for x in m["accounts"] if x["tier"] == "High" and x["position"] == "Short"}; moved = {x["id"] for x in m["staffing"]["moves"]}
+    check("D. Every high-risk hospital that is short of clinicians appears in capacity moves", need <= moved, f"missing {sorted(need - moved)}")
     print("\nALL CHECKS PASSED" if all(results) else f"\n{results.count(False)} CHECK(S) FAILED")
     sys.exit(0 if all(results) else 1)
 

@@ -69,6 +69,14 @@ def main():
         m_now, m_then = pct(q4_25.rev.sum() - q4_25.cost.sum(), q4_25.rev.sum()), pct(q4_24.rev.sum() - q4_24.cost.sum(), q4_24.rev.sum())
         flags = dict(service=int(over3 >= R["service_months_over_target"]), volume=int(vol_chg <= R["volume_drop_pct"]),
                      satisfaction=int(sat_now < R["satisfaction_below"]), margin=int(m_now - m_then <= R["margin_drop_pts"]))
+        # falling use while service is healthy: the quiet-churn signature (compares Q4 with Q4 a year earlier, so slow erosion shows)
+        yoy = q4_25.enc.sum() / q4_24.enc.sum() - 1
+        quiet = bool(yoy <= R["volume_drop_pct"] and not flags["service"])
+        nrow = am[(am.account_id == a.account_id) & (am.service_line == "Tele-Neurology")]
+        dtn = None
+        if len(nrow):
+            nw = nrow.assign(w=nrow.door_to_needle_min * nrow.encounters).groupby("month")[["w", "encounters"]].sum()
+            dtn = [r(x) for x in (nw.w / nw.encounters)]
         score = sum(flags.values())
         tier = "High" if score >= R["high_score"] else "Watch" if score >= R["watch_score"] else "Healthy"
         reasons = []
@@ -76,6 +84,7 @@ def main():
         if flags["volume"]: reasons.append(f"volume down {abs(vol_chg) * 100:.0f}% vs prior 3 months")
         if flags["satisfaction"]: reasons.append(f"satisfaction {sat_now:.1f}")
         if flags["margin"]: reasons.append(f"margin down {abs(m_now - m_then):.0f} pts year over year")
+        if quiet: reasons.append(f"volume down {abs(yoy) * 100:.0f}% vs a year ago while response is on target")
         # performance (what the user asked for): clinicians assigned + response time
         avg_resp = l3.resp_w.sum() / l3.enc.sum(); sla = l3.sla_w.sum() / l3.enc.sum(); sat3 = l3.sat_w.sum() / l3.enc.sum()
         coverage = l3.fte.sum() / l3.need.sum()
@@ -104,9 +113,9 @@ def main():
             perf=perf, perf_reason=pwhy, position=pos, coverage=r(coverage, 2), avg_resp=r(avg_resp), sla=r(sla), sat=r(sat3),
             months_over_target_6=over6, epf=r(l3.enc.sum() / l3.fte.sum()), margin_pct=r(m_now), margin_prior_pct=r(m_then),
             cost_per_fte=int(round(l3.cost.sum() / l3.fte.sum())), fte_now=r(l3.fte.mean(), 2), need_now=r(l3.need.mean(), 2),
-            first_fte_drop=drop,
+            first_fte_drop=drop, yoy_vol=r(yoy * 100), quiet=quiet,
             series=dict(fte=[r(x, 2) for x in s.fte], need=[r(x, 2) for x in s.need], resp=[r(x) for x in s.resp],
-                        sat=[r(x) for x in s.sat], enc=[int(x) for x in s.enc],
+                        sat=[r(x) for x in s.sat], enc=[int(x) for x in s.enc], dtn=dtn,
                         margin=[r(pct(c, v)) for c, v in zip(s.rev - s.cost, s.rev)])))
     accounts.sort(key=lambda x: ({"High": 0, "Watch": 1, "Healthy": 2}[x["tier"]], x["renewal_in_months"], -x["acv"]))
     by_id = {x["id"]: x for x in accounts}
@@ -195,13 +204,27 @@ def main():
     lg = line.groupby(["account_id", "hospital_name", "state", "service_line"]).agg(enc=("encounters", "mean"), fte=("assigned_fte", "mean")).reset_index()
     lg["need"] = lg.enc / CFG["healthy_encounters_per_fte"]; lg["gap"] = lg.need - lg.fte
     lg["spec"] = lg.service_line.map({"Tele-Neurology": "Neurology", "Tele-Psychiatry": "Psychiatry", "Tele-Critical Care": "Critical Care"})
+    # Where to move capacity first: every hospital short of clinicians, most urgent first
+    # (High risk, then soonest renewal, then biggest gap). A hospital's gap is the sum of its short service lines.
+    pos_gap = lg[lg.gap > 0.02].groupby("account_id").gap.sum()
+    short_ids = [i for i in pos_gap.index if by_id[i]["position"] == "Short" and pos_gap[i] >= 0.05]
+    short_ids.sort(key=lambda i: (by_id[i]["tier"] != "High", by_id[i]["renewal_in_months"], -pos_gap[i]))
     moves = []
-    for _, g in lg[lg.gap >= 0.08].sort_values("gap", ascending=False).head(10).iterrows():
+    for i in short_ids[:8]:
+        g = lg[(lg.account_id == i) & (lg.gap > 0.02)].sort_values("gap", ascending=False).iloc[0]
         elig = cl[(cl.specialty == g.spec) & (cl.licensed_states.str.contains(g.state)) & (cl.util < CAP["spare_util_below_pct"])].sort_values("spare", ascending=False)
         inel = cl[(cl.specialty == g.spec) & (~cl.licensed_states.str.contains(g.state)) & (cl.util < CAP["spare_util_below_pct"])].sort_values("spare", ascending=False)
-        moves.append(dict(account=g.hospital_name, id=g.account_id, state=g.state, line=g.service_line, gap=r(g.gap, 2),
-                          ready=[dict(id=i, spare=r(c.spare, 2), util=r(c.util), shift=c["shift"]) for i, c in elig.head(3).iterrows()],
-                          need_license=[dict(id=i, spare=r(c.spare, 2), util=r(c.util)) for i, c in inel.head(2).iterrows()] if len(elig) == 0 else []))
+        x = by_id[i]
+        moves.append(dict(account=x["name"], id=i, state=g.state, line=g.service_line, gap=r(pos_gap[i], 2), tier=x["tier"], renewal=x["renewal"],
+                          renewal_in_months=x["renewal_in_months"], acv=x["acv"],
+                          ready=[dict(id=k, spare=r(c.spare, 2), util=r(c.util), shift=c["shift"]) for k, c in elig.head(3).iterrows()],
+                          need_license=[dict(id=k, spare=r(c.spare, 2), util=r(c.util)) for k, c in inel.head(2).iterrows()] if len(elig) == 0 else []))
+    heavy_rows = [x for x in accounts if x["position"] == "Heavy"]
+    short_rows = [x for x in accounts if x["position"] == "Short"]
+    balance = dict(surplus_fte=r(sum(x["fte_now"] - x["need_now"] for x in heavy_rows), 2), surplus_n=len(heavy_rows),
+                   surplus_names=[x["name"] for x in heavy_rows],
+                   shortfall_fte=r(sum(x["need_now"] - x["fte_now"] for x in short_rows), 2), shortfall_n=len(short_rows),
+                   moves_total=r(sum(m["gap"] for m in moves), 2))
     states = []
     for st in STATES_ALL:
         g = lg[lg.state == st]
@@ -239,7 +262,7 @@ def main():
     recs = sorted(recs, key=lambda x: (-x["score"], x["clinician"]))[:10]
     lines_total = int(len(lg)); avg_line_fte = float(lg.fte.mean())
     headroom = dict(spare_total=r(cl.spare.sum(), 1), by_specialty=spare_by_spec, avg_line_fte=r(avg_line_fte, 2),
-                    extra_lines=int(cl.spare.sum() / avg_line_fte), lines_now=lines_total)
+                    extra_lines=int(cl.spare.sum() / avg_line_fte), lines_now=lines_total, balance=balance)
 
     # ---------- leading indicators (for accounts that ended High risk) ----------
     inds = {"Staffing drop (FTE 8% below Jan 2025)": [], "Response over target 2 months running": [], "Satisfaction below 7.5": [],
@@ -267,9 +290,14 @@ def main():
     over_now = lastm[lastm.resp > target]
     vol_down = [x for x in accounts if x["flags"]["volume"]]
     strain = [x for x in accounts if 0 <= x["renewal_in_months"] <= 12 and x["series"]["fte"][-1] < 0.9 * x["series"]["fte"][-7]]
-    tiles = dict(response=dict(n=int(len(over_now)), of=len(accounts), names=[by_id[i]["name"] for i in over_now.account_id]),
-                 volume=dict(n=len(vol_down), of=len(accounts), names=[x["name"] for x in vol_down]),
-                 staffing=dict(n=len(strain), of=len(accounts), names=[x["name"] for x in strain]))
+    def who(rows):  # soonest renewal first, because a problem at a hospital about to renew is the most expensive one
+        return [dict(name=x["name"], renews_in=x["renewal_in_months"], id=x["id"]) for x in sorted(rows, key=lambda z: (z["renewal_in_months"], -z["acv"]))]
+    over_ids = set(over_now.account_id)
+    quiet_rows = [x for x in accounts if x["quiet"]]
+    tiles = dict(response=dict(n=len(over_ids), of=len(accounts), names=who([by_id[i] for i in over_ids])),
+                 volume=dict(n=len(vol_down), of=len(accounts), names=who(vol_down)),
+                 staffing=dict(n=len(strain), of=len(accounts), names=who(strain)),
+                 quiet=dict(n=len(quiet_rows), of=len(accounts), names=who(quiet_rows)))
 
     out = dict(
         meta=dict(company="Larkspur TeleSpecialty", today=CFG["today"], months=months, target=target, thresholds=CFG,
